@@ -1,0 +1,1445 @@
+/* -------------------------------------Fonts------------------------------------- */
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(../assets/fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(../assets/fonts/Montserrat/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-SemiBold;
+    src: url(../assets/fonts/Montserrat/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Light;
+    src: url(../assets/fonts/Montserrat/Montserrat-Light.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-ExtraLight;
+    src: url(../assets/fonts/Montserrat/Montserrat-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url(../assets/fonts/Montserrat/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-ExtraBold;
+    src: url(../assets/fonts/Montserrat/Montserrat-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Black;
+    src: url(../assets/fonts/Montserrat/Montserrat-Black.ttf);
+}
+
+@font-face {
+    font-family: Pokemon-font;
+    src: url(../assets/fonts/pkmn_rbygsc/PKMN_RBYGSC.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(../assets/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(../assets/fonts/Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url(../assets/fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Light;
+    src: url(../assets/fonts/Poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: Poppins-ExtraLight;
+    src: url(../assets/fonts/Poppins/Poppins-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url(../assets/fonts/Poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: Poppins-ExtraBold;
+    src: url(../assets/fonts/Poppins/Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Black;
+    src: url(../assets/fonts/Poppins/Poppins-Black.ttf);
+}
+
+@font-face {
+    font-family: Quicksand-Regular;
+    src: url(../assets/fonts/Quicksand/Quicksand-Regular.ttf);
+}
+
+@font-face {
+    font-family: Quicksand-Bold;
+    src: url(../assets/fonts/Quicksand/Quicksand-Bold.ttf);
+}
+
+@font-face {
+    font-family: Quicksand-SemiBold;
+    src: url(../assets/fonts/Quicksand/Quicksand-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Quicksand-Light;
+    src: url(../assets/fonts/Quicksand/Quicksand-Light.ttf);
+}
+
+@font-face {
+    font-family: Quicksand-Medium;
+    src: url(../assets/fonts/Quicksand/Quicksand-Medium.ttf);
+}
+
+@font-face {
+    font-family: Lexend-Regular;
+    src: url(../assets/fonts/Lexend/Lexend-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lexend-Bold;
+    src: url(../assets/fonts/Lexend/Lexend-Bold.ttf);
+}
+
+@font-face {
+    font-family: Lexend-SemiBold;
+    src: url(../assets/fonts/Lexend/Lexend-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Lexend-Light;
+    src: url(../assets/fonts/Lexend/Lexend-Light.ttf);
+}
+
+@font-face {
+    font-family: Lexend-Medium;
+    src: url(../assets/fonts/Lexend/Lexend-Medium.ttf);
+}
+
+@font-face {
+    font-family: Lexend-ExtraBold;
+    src: url(../assets/fonts/Lexend/Lexend-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Lexend-Black;
+    src: url(../assets/fonts/Lexend/Lexend-Black.ttf);
+}
+
+@font-face {
+    font-family: LexendTera-Regular;
+    src: url(../assets/fonts/Lexend-Tera/LexendTera-Regular.ttf);
+}
+
+@font-face {
+    font-family: LexendTera-Bold;
+    src: url(../assets/fonts/Lexend-Tera/LexendTera-Bold.ttf);
+}
+
+@font-face {
+    font-family: LexendTera-SemiBold;
+    src: url(../assets/fonts/Lexend-Tera/LexendTera-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: LexendTera-Light;
+    src: url(../assets/fonts/Lexend-Tera/LexendTera-Light.ttf);
+}
+
+@font-face {
+    font-family: LexendTera-Medium;
+    src: url(../assets/fonts/Lexend-Tera/LexendTera-Medium.ttf);
+}
+
+@font-face {
+    font-family: LexendTera-ExtraBold;
+    src: url(../assets/fonts/Lexend-Tera/LexendTera-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: LexendTera-Black;
+    src: url(../assets/fonts/Lexend-Tera/LexendTera-Black.ttf);
+}
+
+@font-face {
+    font-family: LexendZetta-Regular;
+    src: url(../assets/fonts/Lexend_Zetta/LexendZetta-Regular.ttf);
+}
+
+/* -------------------------------------First Section------------------------------------- */
+
+.first-section {
+    background-image: url(../assets/First-sec-bg.png);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 743px;
+}
+
+.first-section .nav-section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 96px;
+    flex-shrink: 0;
+    /* background: violet; */
+}
+
+.first-section .nav-bar-rec {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 96px;
+    flex-shrink: 0;
+    background: rgba(0, 0, 0, 0.50);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(5px);
+}
+
+.first-section .logo-div {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 87px;
+    height: 90px;
+    flex-shrink: 0;
+    cursor: pointer;
+    /* background: yellowgreen; */
+}
+
+.first-section .nav-logo-main {
+    width: 81px;
+    height: 68px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.first-section .Pokenft-logo-text {
+    color: #FFF;
+    font-family: "LexendZetta-Regular";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.first-section .nav-left {
+    display: flex;
+    width: 574px;
+    height: 22px;
+    align-items: flex-start;
+    gap: 67px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 50%;
+    left: 59px;
+    transform: translateY(-50%);
+    /* background: turquoise; */
+}
+
+.first-section .nav-explore {
+    width: 89px;
+    height: 22px;
+    flex-shrink: 0;
+    position: relative;
+    /* background: red; */
+    cursor: pointer;
+}
+
+.first-section .nav-explore-text {
+    color: #FFF;
+    text-align: center;
+    font-family: "Montserrat-Bold";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.first-section .explore-line {
+    width: 0px;
+    height: 1px;
+    position: absolute;
+    left: 50%;
+    bottom: 2px;
+    transform: translateX(-50%);
+    background: #FFF;
+    transition: all ease-in-out 500ms;
+}
+
+.first-section .nav-explore:hover .explore-line {
+    width: 90px;
+}
+
+.first-section .nav-about {
+    width: 68px;
+    height: 22px;
+    flex-shrink: 0;
+    position: relative;
+    /* background: red; */
+    cursor: pointer;
+}
+
+.first-section .nav-about-text {
+    color: #FFF;
+    text-align: center;
+    font-family: "Montserrat-Bold";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.first-section .about-line {
+    width: 0px;
+    height: 1px;
+    position: absolute;
+    left: 50%;
+    bottom: 2px;
+    transform: translateX(-50%);
+    background: #FFF;
+    transition: all ease-in-out 500ms;
+}
+
+.first-section .nav-about:hover .about-line {
+    width: 70px;
+}
+
+.first-section .nav-contact-us {
+    width: 126px;
+    height: 22px;
+    flex-shrink: 0;
+    position: relative;
+    /* background: red; */
+    cursor: pointer;
+}
+
+.first-section .nav-contact-us-text {
+    color: #FFF;
+    text-align: center;
+    font-family: "Montserrat-Bold";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.first-section .contact-us-line {
+    width: 0px;
+    height: 1px;
+    position: absolute;
+    left: 50%;
+    bottom: 2px;
+    transform: translateX(-50%);
+    background: #FFF;
+    transition: all ease-in-out 500ms;
+}
+
+.first-section .nav-contact-us:hover .contact-us-line {
+    width: 124px;
+}
+
+.first-section .nav-pokedex {
+    width: 95px;
+    height: 22px;
+    flex-shrink: 0;
+    position: relative;
+    /* background: red; */
+    cursor: pointer;
+}
+
+.first-section .nav-pokedex-text {
+    color: #FFF;
+    text-align: center;
+    font-family: "Montserrat-Bold";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.first-section .pokedex-line {
+    width: 0px;
+    height: 1px;
+    position: absolute;
+    left: 50%;
+    bottom: 2px;
+    transform: translateX(-50%);
+    background: #FFF;
+    transition: all ease-in-out 500ms;
+}
+
+.first-section .nav-pokedex:hover .pokedex-line {
+    width: 97px;
+}
+
+.first-section .nav-right {
+    display: inline-flex;
+    height: 27px;
+    align-items: center;
+    gap: 60px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 50%;
+    right: 199px;
+    transform: translateY(-50%);
+    /* background: turquoise; */
+}
+
+.first-section .nav-collection {
+    width: 124px;
+    height: 22px;
+    flex-shrink: 0;
+    position: relative;
+    /* background: red; */
+    cursor: pointer;
+}
+
+.first-section .nav-ranking {
+    width: 90px;
+    height: 22px;
+    flex-shrink: 0;
+    position: relative;
+    /* background: red; */
+    cursor: pointer;
+}
+
+.first-section .nav-rewards {
+    width: 99.005px;
+    height: 22px;
+    flex-shrink: 0;
+    position: relative;
+    /* background: red; */
+    cursor: pointer;
+}
+
+.first-section .nav-collection-text, .first-section .nav-ranking-text, .first-section .nav-rewards-text {
+    color: #FFF;
+    text-align: center;
+    font-family: "Montserrat-Bold";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.first-section .collection-line, .first-section .ranking-line, .first-section .rewards-line {
+    width: 0px;
+    height: 1px;
+    position: absolute;
+    left: 50%;
+    bottom: 2px;
+    transform: translateX(-50%);
+    background: #FFF;
+    transition: all ease-in-out 500ms;
+}
+
+.first-section .nav-collection:hover .collection-line {
+    width: 126px;
+}
+
+.first-section .nav-ranking:hover .ranking-line {
+    width: 92px;
+}
+
+.first-section .nav-rewards:hover .rewards-line {
+    width: 101px;
+}
+
+.first-section .nav-login {
+    width: 55px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 27.5px;
+    position: absolute;
+    top: 50%;
+    right: 72px;
+    transform: translateY(-50%);
+}
+
+.first-section .nav-header {
+    width: 1066px;
+    height: 94px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 262px;
+    left: 50%;
+    transform: translateX(-50%);
+    /* background: seagreen; */
+}
+
+.first-section .nav-header-main {
+    color: #FFF;
+    font-family: "Montserrat-ExtraBold", Helvetica;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-wrap: nowrap;
+}
+
+.first-section .nav-header-sub {
+    color: #FFF;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-wrap: nowrap;
+}
+
+.first-section .first-sec-buttons {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 25px;
+    position: absolute;
+    top: 428px;
+    left: 50%;
+    transform: translateX(-50%);
+    /* background: tomato; */
+}
+
+.first-section .first-get-started-btn {
+    position: relative;
+    width: 158px;
+    height: 59px;
+    cursor: pointer;
+}
+
+.first-section .first-get-started-rec {
+    width: 158px;
+    height: 59px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: linear-gradient(97deg, #3B1922 0.96%, #4E2822 100%);
+    box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all ease-in-out 500ms;
+}
+
+.first-section .first-get-started-text {
+    color: #FFF;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-wrap: nowrap;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.first-section .first-explore-collection-btn {
+    position: relative;
+    width: 206px;
+    height: 59px;
+    cursor: pointer;
+}
+
+.first-section .first-explore-collection-rec {
+    width: 206px;
+    height: 59px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    border: 3px solid #FFF;
+    box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all ease-in-out 500ms;
+}
+
+.first-section .first-explore-collection-text {
+    color: #FFF;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-wrap: nowrap;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all ease-in-out 500ms;
+}
+
+.first-section .first-get-started-btn:hover .first-get-started-rec {
+    border-radius: 2px;
+    background: linear-gradient(97deg, #3B1922 0.96%, #4E2822 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 4px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.first-section .first-explore-collection-btn:hover .first-explore-collection-rec {
+    background: #FFF;
+}
+
+.first-section .first-explore-collection-btn:hover .first-explore-collection-text {
+    color: #000;
+}
+
+div.background-1 {
+    background-image: url(../assets/background-grad.svg);
+    background-size: cover;
+    position: absolute;
+    top: 742px;
+    left: 0;
+    width: 100%;
+    height: 2098px;
+    flex-shrink: 0;
+}
+
+.background-1-rec {
+    background: rgba(255, 255, 255, 0.50);
+    backdrop-filter: blur(125px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2098px;
+    flex-shrink: 0;
+}
+
+/* -------------------------------------Second Section------------------------------------- */
+
+.second-section {
+    width: 1325px;
+    height: 559px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 779px;
+    left: 50%;
+    transform: translateX(-50%);
+    /* background: violet; */
+}
+
+.second-section .second-sec-header {
+    width: 685px;
+    height: 370px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 58px;
+    left: 0;
+    /* background: wheat; */
+}
+
+.second-section .second-sec-header-main {
+    width: 685px;
+    height: 288px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background: #4E2822; */
+}
+
+.second-section .second-sec-header-sub {
+    width: 407px;
+    height: 49px;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 0;
+    left: 6px;
+    /* background: #3B1922; */
+}
+
+.second-section .second-sec-header-main-1, .second-section .second-sec-header-main-2, .second-section .second-sec-header-main-3 {
+    color: #000;
+    font-family: "LexendTera-SemiBold", Helvetica;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.second-section .second-sec-header-main-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.second-section .second-sec-header-main-2 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.second-section .second-sec-header-main-3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.second-section .second-sec-header-sub-1, .second-section .second-sec-header-sub-2 {
+    color: #000;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.second-section .second-sec-header-sub-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.second-section .second-sec-header-sub-2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.second-section .second-pokemon-showcase {
+    width: 694px;
+    height: 559px;
+    flex-shrink: 0;
+    /* background: turquoise; */
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.second-section .second-pokemon-circle {
+    width: 559px;
+    height: 559px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 559px;
+    background: linear-gradient(270deg, #000 0%, #353434 100%);
+}
+
+.second-section .second-sec-all-boxes {
+    width: 519px;
+    height: 444px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 88px;
+    left: 0;
+    /* background: thistle; */
+}
+
+.second-section .second-sec-charizard-box {
+    width: 350.136px;
+    height: 292px;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 7px;
+    left: 0;
+    /* background: aqua; */
+}
+
+.second-section .second-sec-small-boxes {
+    width: 456px;
+    height: 444px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* background: violet; */
+}
+
+.second-section .mewtwo-box {
+    width: 139px;
+    height: 130px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background: tomato; */
+}
+
+.second-section .pansear-box {
+    width: 130px;
+    height: 130px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 0;
+    left: 157px;
+    /* background: tomato; */
+}
+
+.second-section .spigarittus-box {
+    width: 134px;
+    height: 134px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 0;
+    left: 310px;
+    /* background: tomato; */
+}
+
+.second-section .snorlax-box {
+    width: 135px;
+    height: 135px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 153px;
+    left: 314px;
+    /* background: tomato; */
+}
+
+.second-section .phantump-box {
+    width: 137px;
+    height: 137px;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 0;
+    left: 319px;
+    /* background: tomato; */
+}
+
+.second-section .second-sec-charizard-bg {
+    width: 292px;
+    height: 292px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.second-section .second-sec-charizard {
+    width: 325.032px;
+    height: 244.434px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.second-section .second-sec-mewtwo-bg, .second-section .second-sec-pansear-bg, .second-section .second-sec-spigarittus-bg, .second-section .second-sec-snorlax-bg, .second-section .second-sec-phantump-bg {
+    width: 130px;
+    height: 130px;
+    flex-shrink: 0;
+}
+
+.second-section .second-sec-mewtwo-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.second-section .second-sec-pansear-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.second-section .second-sec-spigarittus-bg {
+    position: absolute;
+    top: 0;
+    left: 4px;
+}
+
+.second-section .second-sec-snorlax-bg {
+    position: absolute;
+    top: 0;
+    left: 5px;
+}
+
+.second-section .second-sec-phantump-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.second-section .second-sec-mewtwo {
+    width: 135px;
+    height: 96px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+.second-section .second-sec-pansear {
+    width: 77px;
+    height: 100px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 20px;
+    left: 17px;
+}
+
+.second-section .second-sec-spigarittus {
+    width: 134px;
+    height: 134px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.second-section .second-sec-snorlax {
+    width: 135px;
+    height: 135px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.second-section .second-sec-phantump {
+    width: 137px;
+    height: 137px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.second-section .second-sec-explore-btn {
+    width: 162px;
+    height: 63px;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 30px;
+    left: 3px;
+    /* background: aqua; */
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+.second-section .second-sec-explore-btn-rec {
+    width: 158px;
+    height: 59px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 40px;
+    border: 1px solid #000;
+    background: #FFF;
+    box-shadow: 4px 4px 0px 0px #000;
+}
+
+.second-section .second-sec-explore-btn-pokeball {
+    width: 46px;
+    height: 46px;
+    flex-shrink: 0;
+    right: 9px;
+    bottom: 10px;
+    position: absolute;
+}
+
+.second-section .second-sec-explore-btn-text {
+    color: #000;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+}
+
+/* -------------------------------------Third Section------------------------------------- */
+
+.third-section {
+    position: absolute;
+    top: 1404px;
+    left: 0;
+    width: 100%;
+    height: 842px;
+    background: url(../assets/Black-bg-1.png);
+}
+
+.third-section .third-sec-big-pokeball {
+    width: 564px;
+    height: 564px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.third-section .third-sec-prof-kukui {
+    width: 311px;
+    height: 587px;
+    flex-shrink: 0;
+    top: 124px;
+    left: 180px;
+    position: absolute;
+}
+
+.third-section .kukui-dialogue {
+    width: 752px;
+    height: 130px;
+    flex-shrink: 0;
+    top: 36px;
+    left: 145px;
+    position: absolute;
+}
+
+.third-section .kukui-dialogue-box {
+    width: 752px;
+    height: 130px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.third-section .kukui-dialogue-text {
+    color: #000;
+    font-family: "Pokemon-font", Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 27px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-wrap: nowrap;
+}
+
+.third-section .roadmap-insertion {
+    color: #FFF;
+    text-align: center;
+    font-family: "Pokemon-font", Helvetica;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 85px; /* 177.083% */
+    position: absolute;
+    top: 300px;
+    right: 187px;
+    width: 592px;
+    height: auto;
+}
+
+/* -------------------------------------Fourth Section------------------------------------- */
+
+.fourth-section {
+    width: 1421px;
+    height: 473px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 2303px;
+    left: 50%;
+    transform: translateX(-50%);
+    /* background: violet; */
+}
+
+.fourth-section .fourth-sec-header {
+    color: #000;
+    font-family: "LexendTera-Bold", Helvetica;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    left: 71px;
+}
+
+
+.fourth-section .fourth-sec-collectors {
+    width: 1421px;
+    height: 371px;
+    flex-shrink: 0;
+    top: 102px;
+    left: 0;
+    position: absolute;
+    /* background: tomato; */
+}
+
+.fourth-section .fourth-sec-collector-1, .fourth-section .fourth-sec-collector-2, .fourth-section .fourth-sec-collector-3, .fourth-section .fourth-sec-collector-4, .fourth-section .fourth-sec-collector-5, .fourth-section .fourth-sec-collector-6, .fourth-section .fourth-sec-collector-7, .fourth-section .fourth-sec-collector-8, .fourth-section .fourth-sec-collector-9 {
+    width: 439px;
+    height: 93px;
+    flex-shrink: 0;
+}
+
+.fourth-section .fourth-sec-collector-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.fourth-section .fourth-sec-collector-2 {
+    position: absolute;
+    top: 0;
+    left: 491px;
+}
+
+.fourth-section .fourth-sec-collector-3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.fourth-section .fourth-sec-collector-4 {
+    position: absolute;
+    top: 139px;
+    left: 0;
+}
+
+.fourth-section .fourth-sec-collector-5 {
+    position: absolute;
+    top: 139px;
+    left: 491px;
+}
+
+.fourth-section .fourth-sec-collector-6 {
+    position: absolute;
+    top: 139px;
+    right: 0;
+}
+
+.fourth-section .fourth-sec-collector-7 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.fourth-section .fourth-sec-collector-8 {
+    position: absolute;
+    bottom: 0;
+    left: 491px;
+}
+
+.fourth-section .fourth-sec-collector-9 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.fourth-section .fourth-sec-collector-rec {
+    width: 439px;
+    height: 93px;
+    flex-shrink: 0;
+    border: 2px solid #000;
+    background: #FFF;
+    box-shadow: 6px 6px 0px 0px #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.fourth-section .fourth-sec-collector-1-profile, .fourth-section .fourth-sec-collector-2-profile, .fourth-section .fourth-sec-collector-3-profile, .fourth-section .fourth-sec-collector-4-profile, .fourth-section .fourth-sec-collector-5-profile, .fourth-section .fourth-sec-collector-6-profile, .fourth-section .fourth-sec-collector-7-profile, .fourth-section .fourth-sec-collector-8-profile, .fourth-section .fourth-sec-collector-9-profile {
+    width: 59px;
+    height: 59px;
+    flex-shrink: 0;
+    border-radius: 47px;
+    position: absolute;
+    top: 50%;
+    left: 49px;
+    transform: translateY(-50%);
+}
+
+.fourth-section .fourth-sec-collector-rank {
+    color: #000;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    top: 50%;
+    left: 17px;
+    transform: translateY(-50%);
+}
+
+.fourth-section .fourth-sec-collector-1-name-money, .fourth-section .fourth-sec-collector-2-name-money, .fourth-section .fourth-sec-collector-3-name-money, .fourth-section .fourth-sec-collector-4-name-money, .fourth-section .fourth-sec-collector-5-name-money, .fourth-section .fourth-sec-collector-6-name-money, .fourth-section .fourth-sec-collector-7-name-money, .fourth-section .fourth-sec-collector-8-name-money, .fourth-section .fourth-sec-collector-9-name-money {
+    width: 160px;
+    height: 51px;
+    flex-shrink: 0;
+    /* background: #000; */
+    position: absolute;
+    left: 130px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.fourth-section .fourth-sec-collector-1-name, .fourth-section .fourth-sec-collector-2-name, .fourth-section .fourth-sec-collector-3-name, .fourth-section .fourth-sec-collector-4-name, .fourth-section .fourth-sec-collector-5-name, .fourth-section .fourth-sec-collector-6-name, .fourth-section .fourth-sec-collector-7-name, .fourth-section .fourth-sec-collector-8-name, .fourth-section .fourth-sec-collector-9-name {
+    color: #000;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.fourth-section .fourth-sec-collector-1-money, .fourth-section .fourth-sec-collector-2-money, .fourth-section .fourth-sec-collector-3-money, .fourth-section .fourth-sec-collector-4-money, .fourth-section .fourth-sec-collector-5-money, .fourth-section .fourth-sec-collector-6-money, .fourth-section .fourth-sec-collector-7-money, .fourth-section .fourth-sec-collector-8-money, .fourth-section .fourth-sec-collector-9-money {
+    width: 160px;
+    height: 21px;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.fourth-section .fourth-sec-collector-currency {
+    color: #BEBEBE;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.fourth-section .fourth-sec-collector-1-amount, .fourth-section .fourth-sec-collector-2-amount, .fourth-section .fourth-sec-collector-3-amount, .fourth-section .fourth-sec-collector-4-amount, .fourth-section .fourth-sec-collector-5-amount, .fourth-section .fourth-sec-collector-6-amount, .fourth-section .fourth-sec-collector-7-amount, .fourth-section .fourth-sec-collector-8-amount, .fourth-section .fourth-sec-collector-9-amount {
+    color: #BEBEBE;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    left: 80px;   
+}
+
+.fourth-section .fourth-sec-collector-1-nft-score, .fourth-section .fourth-sec-collector-2-nft-score, .fourth-section .fourth-sec-collector-3-nft-score, .fourth-section .fourth-sec-collector-4-nft-score, .fourth-section .fourth-sec-collector-5-nft-score, .fourth-section .fourth-sec-collector-6-nft-score, .fourth-section .fourth-sec-collector-7-nft-score, .fourth-section .fourth-sec-collector-8-nft-score, .fourth-section .fourth-sec-collector-9-nft-score {
+    position: absolute;
+    top: 50%;
+    right: 24px;
+    transform: translateY(-50%);
+    width: 74px;
+    height: 21px;
+    flex-shrink: 0;
+    /* background: yellowgreen; */
+}
+
+.fourth-section .nft-score-logo {
+    width: 11px;
+    height: 17.093px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.fourth-section .fourth-sec-collector-1-score, .fourth-section .fourth-sec-collector-2-score, .fourth-section .fourth-sec-collector-3-score, .fourth-section .fourth-sec-collector-4-score, .fourth-section .fourth-sec-collector-5-score, .fourth-section .fourth-sec-collector-6-score, .fourth-section .fourth-sec-collector-7-score, .fourth-section .fourth-sec-collector-8-score, .fourth-section .fourth-sec-collector-9-score {
+    color: #000;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    left: 17px;
+    /* right: 0; */
+    top: 0;
+}
+
+/* -------------------------------------Fifth Section------------------------------------- */
+
+.four-5-line {
+    width: 100%;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    top: 2842px;
+    left: 0;
+}
+
+.fifth-section {
+    width: 100%;
+    height: 739px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 2844px;
+    left: 0;
+    overflow: hidden;
+    /* background: url(../assets/Fifth-sec-bg.png); */
+    /* background-size: cover; */
+}
+
+.fifth-section .fifth-sec-pokeball {
+    width: 564px;
+    height: 564px;
+    /* transform: rotate(37deg); */
+    flex-shrink: 0;
+    position: absolute;
+    top: 23px;
+    right: -292px;
+}
+
+.fifth-section .fifth-sec-header {
+    width: 526px;
+    height: 288px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 90px;
+    left: 462px;
+    /* background: tomato; */
+}
+
+.fifth-section .fifth-sec-header-1, .fifth-section .fifth-sec-header-2, .fifth-section .fifth-sec-header-3 {
+    color: #000;
+    font-family: "LexendTera-SemiBold", Helvetica;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    position: absolute;
+}
+
+.fifth-section .fifth-sec-header-1 {
+    top: 0;
+    left: 0;
+}
+
+.fifth-section .fifth-sec-header-2 {
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.fifth-section .fifth-sec-header-3 {
+    bottom: 0;
+    left: 0;
+}
+
+.fifth-section .ash-greninja {
+    width: 245px;
+    height: 421px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 45px;
+    left: 153px;
+}
+
+.fifth-section .fifth-sec-party-members {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 30px;
+    position: absolute;
+    top: 444px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1440px;
+    height: 215px;
+    background: aquamarine;
+}
+
+.fifth-section .party-1, .fifth-section .party-2, .fifth-section .party-3, .fifth-section .party-4, .fifth-section .party-5, .fifth-section .party-6 {
+    width: 215px;
+    height: 215px;
+    position: relative;
+    background: tomato;
+}
+
+.fifth-section .party-1-bg, .fifth-section .party-2-bg, .fifth-section .party-3-bg, .fifth-section .party-4-bg, .fifth-section .party-5-bg, .fifth-section .party-6-bg {
+    width: 215px;
+    height: 215px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    flex-shrink: 0;
+    border: 2px solid #000;
+    box-shadow: 4px 4px 0px 0px #000;
+}
+
+.fifth-section .party-member-1, .fifth-section .party-member-2, .fifth-section .party-member-3, .fifth-section .party-member-4, .fifth-section .party-member-5, .fifth-section .party-member-6 {
+    width: 215px;
+    height: 215px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.fifth-section .party-1-bot, .fifth-section .party-2-bot, .fifth-section .party-3-bot, .fifth-section .party-4-bot, .fifth-section .party-5-bot, .fifth-section .party-6-bot {
+    width: 215px;
+    height: 56px;
+    flex-shrink: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+.fifth-section .party-1-rec, .fifth-section .party-2-rec, .fifth-section .party-3-rec, .fifth-section .party-4-rec, .fifth-section .party-5-rec, .fifth-section .party-6-rec {
+    width: 207px;
+    height: 56px;
+    flex-shrink: 0;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #000;
+    background: rgba(217, 217, 217, 0.50);
+    backdrop-filter: blur(7.5px);
+    position: absolute;
+    left: 2px;
+    bottom: 0;
+}
+
+.fifth-section .party-1-mem-name, .fifth-section .party-2-mem-name, .fifth-section .party-3-mem-name, .fifth-section .party-4-mem-name, .fifth-section .party-5-mem-name, .fifth-section .party-6-mem-name {
+    color: #000;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
