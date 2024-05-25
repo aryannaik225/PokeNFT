@@ -964,6 +964,7 @@ div.background-1 {
     border: 1px solid #000;
     background: #FFF;
     box-shadow: 4px 4px 0px 0px #000;
+    transition: all ease-in-out 0.1s;
 }
 
 .second-section .second-sec-explore-btn-pokeball {
@@ -973,6 +974,7 @@ div.background-1 {
     right: 9px;
     bottom: 10px;
     position: absolute;
+    transition: all ease-in-out 0.1s;
 }
 
 .second-section .second-sec-explore-btn-text {
@@ -986,6 +988,23 @@ div.background-1 {
     top: 50%;
     left: 30px;
     transform: translateY(-50%);
+    transition: all ease-in-out 0.1s;
+}
+
+.second-section .second-sec-explore-btn:active .second-sec-explore-btn-rec {
+    box-shadow: 0px 0px 0px 0px #000;
+    top: 4px;
+    left: 4px;
+}
+
+.second-section .second-sec-explore-btn:active .second-sec-explore-btn-pokeball {
+    right: 5px;
+    bottom: 6px;
+}
+
+.second-section .second-sec-explore-btn:active .second-sec-explore-btn-text {
+    top: 54%;
+    left: 34px;
 }
 
 /* -------------------------------------Third Section------------------------------------- */
@@ -1376,14 +1395,14 @@ div.background-1 {
     transform: translateX(-50%);
     width: 1440px;
     height: 215px;
-    background: aquamarine;
+    /* background: aquamarine; */
 }
 
 .fifth-section .party-1, .fifth-section .party-2, .fifth-section .party-3, .fifth-section .party-4, .fifth-section .party-5, .fifth-section .party-6 {
     width: 215px;
     height: 215px;
     position: relative;
-    background: tomato;
+    /* background: tomato; */
 }
 
 .fifth-section .party-1-bg, .fifth-section .party-2-bg, .fifth-section .party-3-bg, .fifth-section .party-4-bg, .fifth-section .party-5-bg, .fifth-section .party-6-bg {
@@ -1404,19 +1423,20 @@ div.background-1 {
     position: absolute;
     top: 0;
     left: 0;
+    filter: drop-shadow(0px 4px 4px #00000040);
 }
 
 .fifth-section .party-1-bot, .fifth-section .party-2-bot, .fifth-section .party-3-bot, .fifth-section .party-4-bot, .fifth-section .party-5-bot, .fifth-section .party-6-bot {
     width: 215px;
     height: 56px;
     flex-shrink: 0;
-    bottom: 0;
+    bottom: -2px;
     left: 0;
     position: absolute;
 }
 
 .fifth-section .party-1-rec, .fifth-section .party-2-rec, .fifth-section .party-3-rec, .fifth-section .party-4-rec, .fifth-section .party-5-rec, .fifth-section .party-6-rec {
-    width: 207px;
+    width: 215px;
     height: 56px;
     flex-shrink: 0;
     border-right: 2px solid #000;
@@ -1425,7 +1445,7 @@ div.background-1 {
     background: rgba(217, 217, 217, 0.50);
     backdrop-filter: blur(7.5px);
     position: absolute;
-    left: 2px;
+    left: 0;
     bottom: 0;
 }
 
@@ -1443,3 +1463,2377 @@ div.background-1 {
     transform: translate(-50%, -50%);
 }
 
+.fifth-section .party-com-rec {
+    width: 215px;
+    height: 215px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid #000;
+    background: #D9D9D9;
+    box-shadow: 4px 4px 0px 0px #000;
+}
+
+.fifth-section .party-com-plus {
+    color: #000;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* -------------------------------------Sixth Section------------------------------------- */
+
+.sixth-section {
+    width: 100%;
+    height: 1463px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 3583px;
+    left: 0;
+    background: url(../assets/Black-bg-2.png);
+    background-size: cover;
+}
+
+.sixth-section .sixth-sec-header {
+    width: 1412.851px;
+    height: 72px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 90px;
+    left: 61px;
+    /* background: tomato; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.sixth-section .sixth-sec-header-main {
+    color: #FFF;
+    font-family: "PKMN RBYGSC";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    position: relative;
+    top: 0;
+}
+
+.sixth-section .sixth-sec-view-all {
+    width: 202.851px;
+    height: 26.851px;
+    flex-shrink: 0;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    /* background: tomato; */
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.sixth-section .sixth-sec-view-all-text-div {
+    position: relative;
+    top: 3px;
+}   
+
+.sixth-section .sixth-sec-view-all-text {
+    color: #FFF;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-wrap: nowrap;
+}
+
+.sixth-section .sixth-sec-view-all-line {
+    width: 0px;
+    height: 1px;
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    background: white;
+    transition: all ease-in-out 500ms;
+}
+
+.sixth-section .view-all-arrow {
+    width: 24px;
+    height: 13.973px;
+    flex-shrink: 0;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.sixth-sec-view-all:hover .sixth-sec-view-all-line {
+    width: 170px;
+    /* left: 50%;
+    transform: translateX(-50%); */
+}
+
+.sixth-section .shop-cards-all {
+    width: 1415px;
+    height: 1136px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 235px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 82px;
+    /* background: tomato; */
+}
+
+.sixth-section .shop-card-1, .sixth-section .shop-card-2, .sixth-section .shop-card-3, .sixth-section .shop-card-4, .sixth-section .shop-card-5, .sixth-section .shop-card-6{
+    width: 417px;
+    height: 527.198px;
+    flex-shrink: 0;
+    position: relative;
+    background: aqua;
+    filter: drop-shadow(6px 6px 0px #5A5A5A);
+    border-radius: 8px;
+}
+
+/* ----------------------------------------Dedenne Card--------------------------------------- */
+
+.shop-card-1 .shop-card {
+    width: 417px;
+    height: 527.198px;
+    flex-shrink: 0;
+    /* filter: drop-shadow(6px 6px 0px #5A5A5A); */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.shop-card-1 .shop-card-rec-1 {
+    width: 417px;
+    height: 110.198px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 8px 8px;
+    background: #FFF;
+    position: absolute;
+    /* top: 417px; */
+    bottom: 0;
+    left: 0;
+}
+
+.shop-card-1 .shop-card-rec-2 {
+    width: 417px;
+    height: 417px;
+    flex-shrink: 0;
+    border-radius: 8px 8px 0px 0px;
+    background: linear-gradient(180deg, #FEF361 0%, #FA9C22 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.shop-card-1 .shop-card-pokemon {
+    width: 370px;
+    height: 370px;
+    flex-shrink: 0;
+    filter: drop-shadow(0px 4px 4px #00000040);
+    background: url(../assets/Dedenne.png);
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40px;
+}
+
+.shop-card-1 .pokedex-number-box {
+    width: 80.144px;
+    height: 26.297px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 26.3px;
+    left: 25px;
+    border-radius: 15px;
+}
+
+.shop-card-1 .pokedex-number-rec {
+    width: 80.144px;
+    height: 26.297px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.75);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.shop-card-1 .pokedex-number {
+    width: 38.82px;
+    height: 13.775px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: "Pokemon-font", Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.shop-card-1 .pokemon-types {
+    width: 140.252px;
+    height: 16.279px;
+    flex-shrink: 0;
+    filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 7px;
+    position: absolute;
+    left: 12.5px;
+    bottom: 83.9px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 7.51px;
+}
+
+.shop-card-1 .pokemon-type1, .shop-card-1 .pokemon-type2 {
+    width: 66.369px;
+    height: 16.279px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    position: relative;
+}
+
+.shop-card-1 .pokemon-type-rec-1 {
+    width: 66.369px;
+    height: 16.279px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    border: 0.2px solid #000;
+    background: #FAFF00;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.shop-card-1 .pokemon-type-rec-2 {
+    width: 66.369px;
+    height: 16.279px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    border: 0.2px solid #000;
+    background: #DFB8D7;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.shop-card-1 .pokemon-type-text {
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.shop-card-1 .shop-pokemon-name {
+    color: #000;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 52.59px;
+    left: 13.77px;
+}
+
+.shop-card-1 .shop-pokemon-gen {
+    color: #000;
+    text-align: center;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 32.56px;
+    left: 13.77px;
+}
+
+.shop-card-1 .price {
+    width: 68.883px;
+    height: 15.027px;
+    flex-shrink: 0;
+    bottom: 41.32px;
+    right: 22.53px;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    gap: 4px;
+}
+
+.shop-card-1 .price-text {
+    color: #000;
+    text-align: center;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.shop-card-1 .cost {
+    color: #000;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.shop-card-1 .time-left {
+    width: 62.477px;
+    height: 10.018px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 13.77px;
+    left: 12.52px;
+}
+
+.shop-card-1 .time-left-clock {
+    width: 10.018px;
+    height: 10.018px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.shop-card-1 .time-left-text {
+    color: #969696;
+    text-align: center;
+    font-family: "Montserrat-SemiBold", Helvetica;    
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+    top: 0;
+    text-transform: capitalize;
+}
+
+.shop-card-1 .six-like {
+    display: flex;
+    width: 27.55px;
+    height: 8.805px;
+    align-items: center;
+    gap: 3px;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 15px;
+    right: 17.5px;
+}
+
+.shop-card-1 .like-heart {
+    width: 8px;
+    height: 7.031px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.shop-card-1 .like-count {
+    color: #969696;
+    text-align: right;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+/* ----------------------------------Goldeen Card----------------------------- */
+
+.shop-card-2 .shop-card {
+    width: 417px;
+    height: 527.198px;
+    flex-shrink: 0;
+    /* filter: drop-shadow(6px 6px 0px #5A5A5A); */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.shop-card-2 .shop-card-rec-1 {
+    width: 417px;
+    height: 110.198px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 8px 8px;
+    background: #FFF;
+    position: absolute;
+    /* top: 417px; */
+    bottom: 0;
+    left: 0;
+}
+
+.shop-card-2 .shop-card-rec-2 {
+    width: 417px;
+    height: 417px;
+    flex-shrink: 0;
+    border-radius: 8px 8px 0px 0px;
+    background: linear-gradient(180deg, #A4EBFD 0%, #0C5C99 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.shop-card-2 .shop-card-pokemon {
+    width: 370px;
+    height: 370px;
+    flex-shrink: 0;
+    filter: drop-shadow(0px 4px 4px #00000040);
+    background: url(../assets/Goldeen.png);
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40px;
+}
+
+.shop-card-2 .pokedex-number-box {
+    width: 80.144px;
+    height: 26.297px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 26.3px;
+    left: 25px;
+    border-radius: 15px;
+}
+
+.shop-card-2 .pokedex-number-rec {
+    width: 80.144px;
+    height: 26.297px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.75);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.shop-card-2 .pokedex-number {
+    width: 38.82px;
+    height: 13.775px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: "Pokemon-font", Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.shop-card-2 .pokemon-types {
+    width: 140.252px;
+    height: 16.279px;
+    flex-shrink: 0;
+    filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 7px;
+    position: absolute;
+    left: 12.5px;
+    bottom: 83.9px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 7.51px;
+}
+
+.shop-card-2 .pokemon-type1, .shop-card-2 .pokemon-type2 {
+    width: 66.369px;
+    height: 16.279px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    position: relative;
+}
+
+.shop-card-2 .pokemon-type-rec-1 {
+    width: 66.369px;
+    height: 16.279px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    border: 0.2px solid #000;
+    background: #65AAD4;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.shop-card-2 .pokemon-type-rec-2 {
+    width: 66.369px;
+    height: 16.279px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    border: 0.2px solid #000;
+    background: #DFB8D7;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.shop-card-2 .pokemon-type-text {
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.shop-card-2 .shop-pokemon-name {
+    color: #000;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 52.59px;
+    left: 13.77px;
+}
+
+.shop-card-2 .shop-pokemon-gen {
+    color: #000;
+    text-align: center;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 32.56px;
+    left: 13.77px;
+}
+
+.shop-card-2 .price {
+    width: 68.883px;
+    height: 15.027px;
+    flex-shrink: 0;
+    bottom: 41.32px;
+    right: 22.53px;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    gap: 4px;
+}
+
+.shop-card-2 .price-text {
+    color: #000;
+    text-align: center;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.shop-card-2 .cost {
+    color: #000;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.shop-card-2 .time-left {
+    width: 62.477px;
+    height: 10.018px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 13.77px;
+    left: 12.52px;
+}
+
+.shop-card-2 .time-left-clock {
+    width: 10.018px;
+    height: 10.018px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.shop-card-2 .time-left-text {
+    color: #969696;
+    text-align: center;
+    font-family: "Montserrat-SemiBold", Helvetica;    
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+    top: 0;
+    text-transform: capitalize;
+}
+
+.shop-card-2 .six-like {
+    display: flex;
+    width: 27.55px;
+    height: 8.805px;
+    align-items: center;
+    gap: 3px;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 15px;
+    right: 17.5px;
+}
+
+.shop-card-2 .like-heart {
+    width: 8px;
+    height: 7.031px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.shop-card-2 .like-count {
+    color: #969696;
+    text-align: right;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+/* ----------------------------------Wormadam Card----------------------------- */
+
+
+.shop-card-3 .shop-card {
+    width: 417px;
+    height: 527.198px;
+    flex-shrink: 0;
+    /* filter: drop-shadow(6px 6px 0px #5A5A5A); */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.shop-card-3 .shop-card-rec-1 {
+    width: 417px;
+    height: 110.198px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 8px 8px;
+    background: #FFF;
+    position: absolute;
+    /* top: 417px; */
+    bottom: 0;
+    left: 0;
+}
+
+.shop-card-3 .shop-card-rec-2 {
+    width: 417px;
+    height: 417px;
+    flex-shrink: 0;
+    border-radius: 8px 8px 0px 0px;
+    background: linear-gradient(180deg, #A1C352 0%, #53A93A 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.shop-card-3 .shop-card-pokemon {
+    width: 370px;
+    height: 370px;
+    flex-shrink: 0;
+    filter: drop-shadow(0px 4px 4px #00000040);
+    background: url(../assets/Wormadan.png);
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40px;
+}
+
+.shop-card-3 .pokedex-number-box {
+    width: 80.144px;
+    height: 26.297px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 26.3px;
+    left: 25px;
+    border-radius: 15px;
+}
+
+.shop-card-3 .pokedex-number-rec {
+    width: 80.144px;
+    height: 26.297px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.75);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.shop-card-3 .pokedex-number {
+    width: 38.82px;
+    height: 13.775px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: "Pokemon-font", Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.shop-card-3 .pokemon-types {
+    width: 140.252px;
+    height: 16.279px;
+    flex-shrink: 0;
+    filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 7px;
+    position: absolute;
+    left: 12.5px;
+    bottom: 83.9px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 7.51px;
+}
+
+.shop-card-3 .pokemon-type1, .shop-card-3 .pokemon-type2 {
+    width: 66.369px;
+    height: 16.279px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    position: relative;
+}
+
+.shop-card-3 .pokemon-type-rec-1 {
+    width: 66.369px;
+    height: 16.279px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    border: 0.2px solid #000;
+    background: #A1C352;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.shop-card-3 .pokemon-type-rec-2 {
+    width: 66.369px;
+    height: 16.279px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    border: 0.2px solid #000;
+    background: #53A93A;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.shop-card-3 .pokemon-type-text {
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.shop-card-3 .shop-pokemon-name {
+    color: #000;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 52.59px;
+    left: 13.77px;
+}
+
+.shop-card-3 .shop-pokemon-gen {
+    color: #000;
+    text-align: center;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 32.56px;
+    left: 13.77px;
+}
+
+.shop-card-3 .price {
+    width: 68.883px;
+    height: 15.027px;
+    flex-shrink: 0;
+    bottom: 41.32px;
+    right: 22.53px;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    gap: 4px;
+}
+
+.shop-card-3 .price-text {
+    color: #000;
+    text-align: center;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.shop-card-3 .cost {
+    color: #000;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.shop-card-3 .time-left {
+    width: 62.477px;
+    height: 10.018px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 13.77px;
+    left: 12.52px;
+}
+
+.shop-card-3 .time-left-clock {
+    width: 10.018px;
+    height: 10.018px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.shop-card-3 .time-left-text {
+    color: #969696;
+    text-align: center;
+    font-family: "Montserrat-SemiBold", Helvetica;    
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+    top: 0;
+    text-transform: capitalize;
+}
+
+.shop-card-3 .six-like {
+    display: flex;
+    width: 27.55px;
+    height: 8.805px;
+    align-items: center;
+    gap: 3px;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 15px;
+    right: 17.5px;
+}
+
+.shop-card-3 .like-heart {
+    width: 8px;
+    height: 7.031px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.shop-card-3 .like-count {
+    color: #969696;
+    text-align: right;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+/* ----------------------------------Ho-Oh Card----------------------------- */
+
+
+.shop-card-4 .shop-card {
+    width: 417px;
+    height: 527.198px;
+    flex-shrink: 0;
+    /* filter: drop-shadow(6px 6px 0px #5A5A5A); */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.shop-card-4 .shop-card-rec-1 {
+    width: 417px;
+    height: 110.198px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 8px 8px;
+    background: #FFF;
+    position: absolute;
+    /* top: 417px; */
+    bottom: 0;
+    left: 0;
+}
+
+.shop-card-4 .shop-card-rec-2 {
+    width: 417px;
+    height: 417px;
+    flex-shrink: 0;
+    border-radius: 8px 8px 0px 0px;
+    background: linear-gradient(45deg, #FC3D00 0.02%, #FEF361 99.55%);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.shop-card-4 .shop-card-pokemon {
+    width: 370px;
+    height: 370px;
+    flex-shrink: 0;
+    filter: drop-shadow(0px 4px 4px #00000040);
+    background: url(../assets/Ho-oh.png);
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40px;
+}
+
+.shop-card-4 .pokedex-number-box {
+    width: 80.144px;
+    height: 26.297px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 26.3px;
+    left: 25px;
+    border-radius: 15px;
+}
+
+.shop-card-4 .pokedex-number-rec {
+    width: 80.144px;
+    height: 26.297px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.75);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.shop-card-4 .pokedex-number {
+    width: 38.82px;
+    height: 13.775px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: "Pokemon-font", Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.shop-card-4 .pokemon-types {
+    width: 140.252px;
+    height: 16.279px;
+    flex-shrink: 0;
+    filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 7px;
+    position: absolute;
+    left: 12.5px;
+    bottom: 83.9px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 7.51px;
+}
+
+.shop-card-4 .pokemon-type1, .shop-card-4 .pokemon-type2 {
+    width: 66.369px;
+    height: 16.279px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    position: relative;
+}
+
+.shop-card-4 .pokemon-type-rec-1 {
+    width: 66.369px;
+    height: 16.279px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    border: 0.2px solid #000;
+    background: #EA9447;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.shop-card-4 .pokemon-type-rec-2 {
+    width: 66.369px;
+    height: 16.279px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    border: 0.2px solid #000;
+    background: linear-gradient(180deg, #71C6ED -1.33%, #71C6ED 49.35%, #B7B8A8 50.36%, #B7B8A8 100.03%);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.shop-card-4 .pokemon-type-text {
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.shop-card-4 .shop-pokemon-name {
+    color: #000;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 52.59px;
+    left: 13.77px;
+}
+
+.shop-card-4 .shop-pokemon-gen {
+    color: #000;
+    text-align: center;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 32.56px;
+    left: 13.77px;
+}
+
+.shop-card-4 .price {
+    width: 68.883px;
+    height: 15.027px;
+    flex-shrink: 0;
+    bottom: 41.32px;
+    right: 22.53px;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    gap: 4px;
+}
+
+.shop-card-4 .price-text {
+    color: #000;
+    text-align: center;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.shop-card-4 .cost {
+    color: #000;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.shop-card-4 .time-left {
+    width: 62.477px;
+    height: 10.018px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 13.77px;
+    left: 12.52px;
+}
+
+.shop-card-4 .time-left-clock {
+    width: 10.018px;
+    height: 10.018px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.shop-card-4 .time-left-text {
+    color: #969696;
+    text-align: center;
+    font-family: "Montserrat-SemiBold", Helvetica;    
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+    top: 0;
+    text-transform: capitalize;
+}
+
+.shop-card-4 .six-like {
+    display: flex;
+    width: 27.55px;
+    height: 8.805px;
+    align-items: center;
+    gap: 3px;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 15px;
+    right: 17.5px;
+}
+
+.shop-card-4 .like-heart {
+    width: 8px;
+    height: 7.031px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.shop-card-4 .like-count {
+    color: #969696;
+    text-align: right;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+/* ----------------------------------Solgaleo Card----------------------------- */
+
+
+.shop-card-5 .shop-card {
+    width: 417px;
+    height: 527.198px;
+    flex-shrink: 0;
+    /* filter: drop-shadow(6px 6px 0px #5A5A5A); */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.shop-card-5 .shop-card-rec-1 {
+    width: 417px;
+    height: 110.198px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 8px 8px;
+    background: #FFF;
+    position: absolute;
+    /* top: 417px; */
+    bottom: 0;
+    left: 0;
+}
+
+.shop-card-5 .shop-card-rec-2 {
+    width: 417px;
+    height: 417px;
+    flex-shrink: 0;
+    border-radius: 8px 8px 0px 0px;
+    background: linear-gradient(180deg, #FFFBEB 0%, #FA9C22 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.shop-card-5 .shop-card-pokemon {
+    width: 370px;
+    height: 370px;
+    flex-shrink: 0;
+    filter: drop-shadow(0px 4px 4px #00000040);
+    background: url(../assets/Solgaleo.png);
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40px;
+}
+
+.shop-card-5 .pokedex-number-box {
+    width: 80.144px;
+    height: 26.297px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 26.3px;
+    left: 25px;
+    border-radius: 15px;
+}
+
+.shop-card-5 .pokedex-number-rec {
+    width: 80.144px;
+    height: 26.297px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.75);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.shop-card-5 .pokedex-number {
+    width: 38.82px;
+    height: 13.775px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: "Pokemon-font", Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.shop-card-5 .pokemon-types {
+    width: 140.252px;
+    height: 16.279px;
+    flex-shrink: 0;
+    filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 7px;
+    position: absolute;
+    left: 12.5px;
+    bottom: 83.9px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 7.51px;
+}
+
+.shop-card-5 .pokemon-type1, .shop-card-5 .pokemon-type2 {
+    width: 66.369px;
+    height: 16.279px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    position: relative;
+}
+
+.shop-card-5 .pokemon-type-rec-1 {
+    width: 66.369px;
+    height: 16.279px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    border: 0.2px solid #000;
+    background: #D85299;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.shop-card-5 .pokemon-type-rec-2 {
+    width: 66.369px;
+    height: 16.279px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    border: 0.2px solid #000;
+    background: #B8B9CE;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.shop-card-5 .pokemon-type-text {
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.shop-card-5 .shop-pokemon-name {
+    color: #000;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 52.59px;
+    left: 13.77px;
+}
+
+.shop-card-5 .shop-pokemon-gen {
+    color: #000;
+    text-align: center;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 32.56px;
+    left: 13.77px;
+}
+
+.shop-card-5 .price {
+    width: 68.883px;
+    height: 15.027px;
+    flex-shrink: 0;
+    bottom: 41.32px;
+    right: 22.53px;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    gap: 4px;
+}
+
+.shop-card-5 .price-text {
+    color: #000;
+    text-align: center;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.shop-card-5 .cost {
+    color: #000;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.shop-card-5 .time-left {
+    width: 62.477px;
+    height: 10.018px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 13.77px;
+    left: 12.52px;
+}
+
+.shop-card-5 .time-left-clock {
+    width: 10.018px;
+    height: 10.018px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.shop-card-5 .time-left-text {
+    color: #969696;
+    text-align: center;
+    font-family: "Montserrat-SemiBold", Helvetica;    
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+    top: 0;
+    text-transform: capitalize;
+}
+
+.shop-card-5 .six-like {
+    display: flex;
+    width: 27.55px;
+    height: 8.805px;
+    align-items: center;
+    gap: 3px;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 15px;
+    right: 17.5px;
+}
+
+.shop-card-5 .like-heart {
+    width: 8px;
+    height: 7.031px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.shop-card-5 .like-count {
+    color: #969696;
+    text-align: right;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+/* ----------------------------------Mandibuzz Card----------------------------- */
+
+
+.shop-card-6 .shop-card {
+    width: 417px;
+    height: 527.198px;
+    flex-shrink: 0;
+    /* filter: drop-shadow(6px 6px 0px #5A5A5A); */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.shop-card-6 .shop-card-rec-1 {
+    width: 417px;
+    height: 110.198px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 8px 8px;
+    background: #FFF;
+    position: absolute;
+    /* top: 417px; */
+    bottom: 0;
+    left: 0;
+}
+
+.shop-card-6 .shop-card-rec-2 {
+    width: 417px;
+    height: 417px;
+    flex-shrink: 0;
+    border-radius: 8px 8px 0px 0px;
+    background: linear-gradient(180deg, #B5B5B5 0%, #8E8888 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.shop-card-6 .shop-card-pokemon {
+    width: 370px;
+    height: 370px;
+    flex-shrink: 0;
+    filter: drop-shadow(0px 4px 4px #00000040);
+    background: url(../assets/Mandibuzz.png);
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40px;
+}
+
+.shop-card-6 .pokedex-number-box {
+    width: 80.144px;
+    height: 26.297px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 26.3px;
+    left: 25px;
+    border-radius: 15px;
+}
+
+.shop-card-6 .pokedex-number-rec {
+    width: 80.144px;
+    height: 26.297px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.75);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.shop-card-6 .pokedex-number {
+    width: 38.82px;
+    height: 13.775px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: "Pokemon-font", Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.shop-card-6 .pokemon-types {
+    width: 140.252px;
+    height: 16.279px;
+    flex-shrink: 0;
+    filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 7px;
+    position: absolute;
+    left: 12.5px;
+    bottom: 83.9px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 7.51px;
+}
+
+.shop-card-6 .pokemon-type1, .shop-card-6 .pokemon-type2 {
+    width: 66.369px;
+    height: 16.279px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    position: relative;
+}
+
+.shop-card-6 .pokemon-type-rec-1 {
+    width: 66.369px;
+    height: 16.279px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    border: 0.2px solid #000;
+    background: #8E8888;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.shop-card-6 .pokemon-type-rec-2 {
+    width: 66.369px;
+    height: 16.279px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    border: 0.2px solid #000;
+    background: linear-gradient(180deg, #71C6ED -1.33%, #71C6ED 49.35%, #B7B8A8 50.36%, #B7B8A8 100.03%);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.shop-card-6 .pokemon-type-text {
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.shop-card-6 .shop-pokemon-name {
+    color: #000;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 52.59px;
+    left: 13.77px;
+}
+
+.shop-card-6 .shop-pokemon-gen {
+    color: #000;
+    text-align: center;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 32.56px;
+    left: 13.77px;
+}
+
+.shop-card-6 .price {
+    width: 68.883px;
+    height: 15.027px;
+    flex-shrink: 0;
+    bottom: 41.32px;
+    right: 22.53px;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    gap: 4px;
+}
+
+.shop-card-6 .price-text {
+    color: #000;
+    text-align: center;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.shop-card-6 .cost {
+    color: #000;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.shop-card-6 .time-left {
+    width: 62.477px;
+    height: 10.018px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 13.77px;
+    left: 12.52px;
+}
+
+.shop-card-6 .time-left-clock {
+    width: 10.018px;
+    height: 10.018px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.shop-card-6 .time-left-text {
+    color: #969696;
+    text-align: center;
+    font-family: "Montserrat-SemiBold", Helvetica;    
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+    top: 0;
+    text-transform: capitalize;
+}
+
+.shop-card-6 .six-like {
+    display: flex;
+    width: 27.55px;
+    height: 8.805px;
+    align-items: center;
+    gap: 3px;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 15px;
+    right: 17.5px;
+}
+
+.shop-card-6 .like-heart {
+    width: 8px;
+    height: 7.031px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.shop-card-6 .like-count {
+    color: #969696;
+    text-align: right;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+/* -------------------------------------Seventh Section------------------------------------- */
+
+.seventh-section {
+    width: 100%;
+    height: 353px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 5043px;
+    left: 0;
+}
+
+.seventh-section .sev-background-div {
+    width: 100%;
+    height: 352.832px;
+    flex-shrink: 0;
+    background: #FFF;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.seventh-section .sev-ellipse-1 {
+    width: 379.49px;
+    height: 115.592px;
+    flex-shrink: 0;
+    fill: #0FF;
+    position: absolute;
+    right: 0.39px;
+    top: 140px;
+    background: url(../assets/seventh-bg-ellipse-1.svg);
+}
+
+.seventh-section .sev-ellipse-2 {
+    width: 365.381px;
+    height: 106.169px;
+    flex-shrink: 0;
+    fill: #E8B9F0;
+    position: absolute;
+    top: 48.1px;
+    left: 0;
+    background: url(../assets/seventh-bg-ellipse-2.svg);
+}
+
+.seventh-section .sev-background-2 {
+    background: rgba(255, 255, 255, 0.50);
+    backdrop-filter: blur(125px);
+    width: 100%;
+    height: 353px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.seventh-section .sev-header-text {
+    color: #000;
+    font-family: "Montserrat-ExtraBold", Helvetica;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    position: absolute;
+    top: 75.83px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-wrap: nowrap;
+}
+
+.seventh-section .sev-subtext-div {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 76px;
+    top: 168.83px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 24px;
+    width: 1007px;
+    position: absolute;
+}
+
+.seventh-section .sev-subtext-1, .seventh-section .sev-subtext-2, .seventh-section .sev-subtext-3 {
+    color: #000;
+    font-family: "Montserrat-ExtraBold", Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.seventh-section .sev-explore-btn {
+    top: 266px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    width: 249px;
+    height: 63px;
+    flex-shrink: 0;
+    /* background: #FFD700;  */
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.seventh-section .sev-explore-btn-rec {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 245px;
+    height: 59px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    border: 1px solid #000;
+    background: #FFF;
+    box-shadow: 4px 4px 0px 0px #000;
+    transition: all 0.1 s ease-in-out;
+}
+
+.seventh-section .sev-explore-btn-pokeball {
+    width: 46px;
+    height: 46px;
+    flex-shrink: 0;
+    top: 7px;
+    right: 14px;
+    position: absolute;
+    transition: all 0.1s ease-in-out;
+}
+
+.seventh-section .sev-explore-btn-text {
+    color: #000;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: absolute;
+    top: 50%;
+    left: 26px;
+    transform: translateY(-50%);
+    text-wrap: nowrap;
+    transition: all 0.1s ease-in-out;
+}
+
+.seventh-section .sev-explore-btn:active .sev-explore-btn-rec{
+    box-shadow: 0px 0px 0px 0px #000;
+    top: 4px;
+    left: 4px;
+}
+
+.seventh-section .sev-explore-btn:active .sev-explore-btn-pokeball{
+    top: 11px;
+    right: 10px;
+}
+
+.seventh-section .sev-explore-btn:active .sev-explore-btn-text{
+    top: 54%;
+    left: 30px;
+}
+
+/* ------------------------------------------------------------------Footer---------------------------------------------------------------- */
+
+.footer-sec {
+    width: 100%;
+    height: 760px;
+    flex-shrink: 0;
+    top: 5396px;
+    left: 0;
+    position: absolute;
+    background: linear-gradient(90deg, #1F1F1F 0%, #202020 100%);
+}
+
+.footer-sec .footer-top {
+    width: 1053px;
+    height: 213px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 64px;
+    left: 50%;
+    transform: translateX(-50%);
+    /* background: #0C5C99; */
+}
+
+.footer-sec .footer-top-top {
+    width: 1053px;
+    height: 109px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background: #0FF; */
+}
+
+.footer-sec .footer-top-email {
+    width: 593px;
+    height: 67px;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    /* background: #0FF; */
+}
+
+.footer-sec .footer-top-top-text {
+    color: #FFF;
+    font-family: "Pokemon-font", Helvetica;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    text-wrap: nowrap;
+}
+
+.footer-sec .footer-top-bottom-text {
+    color: #FFF;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    text-wrap: nowrap;
+}
+
+.footer-sec .footer-top-email-enter {
+    width: 593px;
+    height: 67px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.footer-sec .footer-top-email-rec {
+    width: 593px;
+    height: 67px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: #FFF;
+}
+
+.footer-sec .footer-top-email-input::placeholder {
+    color: #D9D9D9; 
+    opacity: 1; 
+}
+
+.footer-sec .footer-top-email-input {
+    color: #000000;
+    font-family: Arial;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    top: 50%;
+    left: 26px;
+    transform: translateY(-50%);
+    position: absolute;
+    width: 75%; 
+    height: 30px; 
+    border: none; 
+    outline: none; 
+    background: transparent; 
+    padding: 10px; 
+    box-sizing: border-box; 
+}
+
+.footer-sec .footer-im-in-btn {
+    width: 136px;
+    height: 53px;
+    flex-shrink: 0;
+    top: 50%;
+    right: 9px;
+    transform: translateY(-50%);
+    position: absolute;
+    border-radius: 44px;
+    cursor: pointer;
+    background: #1F1F1F;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-sec .footer-im-in-btn:hover {
+    border-radius: 44px;
+    background: #1F1F1F;
+    box-shadow: 2px 4px 6.6px 0px rgba(0, 0, 0, 1) inset;
+}
+
+.footer-sec .footer-im-in-btn-pokeball {
+    width: 46px;
+    height: 46px;
+    flex-shrink: 0;
+    top: 50%;
+    right: 4px;
+    transform: translateY(-50%);
+    position: absolute;
+}
+
+.footer-sec .footer-im-in-btn-text {
+    color: #FFF;
+    font-family: "Popins-Medium", Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-wrap: nowrap;
+    left: 21px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+}
+
+.footer-sec .footer-line {
+    width: 100%;
+    height: 1px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 343px;
+    left: 0;
+    background: #FFF;
+}
+
+.footer-sec .footer-bottom {
+    width: 1322px;
+    height: 367px;
+    flex-shrink: 0;
+    left: 70px;
+    top: 386px;
+    position: absolute;
+    /* background: #0C5C99;     */
+}
+
+.footer-sec .footer-logo-and-text {
+    width: 307px;
+    height: 253px;
+    flex-shrink: 0;
+    top: 0;
+    left: 0;
+    position: absolute;
+    /* background: #0FF; */
+}
+
+.footer-sec .footer-logo {
+    width: 304px;
+    height: 94px;
+    flex-shrink: 0;
+    left: 1px;
+    top: 0;
+    position: absolute;
+    /* background: #0F6; */
+}
+
+.footer-sec .footer-logo-img {
+    width: 112px;
+    height: 94px;
+    flex-shrink: 0;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.footer-sec .footer-logo-text {
+    color: #FFF;
+    font-family: "Montserrat-ExtraBold", Helvetica;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    right: 0;
+    top: 30px;
+    position: absolute;
+}
+
+.footer-sec .footer-text {
+    width: 307px;
+    height: 128px;
+    flex-shrink: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    /* background: #0F6; */
+}
+
+.footer-sec .footer-text-text {
+    color: #FFF;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px; /* 192.857% */
+    text-transform: capitalize;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+.footer-sec .footer-socials {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 24px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    /* background: tomato; */
+    height: 30px;
+    width: 192px;
+}
+
+.footer-sec .footer-discord, .footer-sec .footer-twitter, .footer-sec .footer-instagram, .footer-sec .footer-facebook {
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-sec .footer-discord {
+    background: url(../assets/discord-gray.svg);
+    background-size: cover;
+}
+
+.footer-sec .footer-discord:hover {
+    background: url(../assets/discord-main.svg);
+    background-size: cover;
+}
+
+.footer-sec .footer-twitter {
+    background: url(../assets/twitter-gray.svg);
+    background-size: cover;
+}
+
+.footer-sec .footer-twitter:hover {
+    background: url(../assets/twitter-main.svg);
+    background-size: cover;
+}
+
+.footer-sec .footer-instagram {
+    background: url(../assets/instagram-gray.svg);
+    background-size: cover;
+}
+
+.footer-sec .footer-instagram:hover {
+    background: url(../assets/instagram-main.svg);
+    background-size: cover;
+}
+
+.footer-sec .footer-facebook {
+    background: url(../assets/facebook-gray.svg);
+    background-size: cover;
+}
+
+.footer-sec .footer-facebook:hover {
+    background: url(../assets/facebook-main.svg);
+    background-size: cover;
+}
+
+.footer-sec .footer-marketplace-links {
+    width: 385px;
+    height: 202px;
+    flex-shrink: 0;
+    top: 39px;
+    right: 0;
+    position: absolute;
+    /* background: tomato; */
+}
+
+.footer-sec .footer-marketplace {
+    width: 157px;
+    height: 202px;
+    flex-shrink: 0;
+    top: 0;
+    left: 0;
+    position: absolute;
+    /* background: #0FF; */
+}
+.footer-sec .footer-links {
+    width: 107px;
+    height: 202px;
+    flex-shrink: 0;
+    top: 0;
+    right: 0;
+    position: absolute;
+    /* background: #0FF; */
+}
+
+.footer-sec .marketplace-text, .footer-sec .links-text {
+    color: #FFF;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+    text-transform: capitalize;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.footer-sec .marketplace, .footer-sec .links {
+    display: flex;
+    width: 107px;
+    height: 138px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.footer-sec .marketplace-explore, .footer-sec .marketplace-articles, .footer-sec .marketplace-howitworks, .footer-sec .marketplace-help, .footer-sec .links-contact, .footer-sec .links-about-us, .footer-sec .links-credits, .footer-sec .links-becoming-partners {
+    color: #FFF;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 168.75% */
+    text-transform: capitalize;
+    position: relative;
+    cursor: pointer;
+    text-wrap: nowrap;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-sec .marketplace-explore:hover, .footer-sec .marketplace-articles:hover, .footer-sec .marketplace-howitworks:hover, .footer-sec .marketplace-help:hover, .footer-sec .links-contact:hover, .footer-sec .links-about-us:hover, .footer-sec .links-credits:hover, .footer-sec .links-becoming-partners:hover {
+    color: #d9d9d9;
+}
+
+.footer-sec .footer-bottom-bottom {
+    width: 536px;
+    height: 72px;
+    flex-shrink: 0;
+    bottom: 0;
+    left: 430px;
+    position: absolute;
+    /* background: #0C5C99; */
+}
+
+.footer-sec .footer-terms-privacy {
+    width: 233px;
+    height: 27px;
+    flex-shrink: 0;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 26px;
+}
+
+.footer-sec .footer-copyrights {
+    width: 536px;
+    height: 49px;
+    flex-shrink: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.footer-sec .terms-of-use, .footer-sec .footer-gray-pokeball, .footer-sec .privacy-policy {
+    position: relative;
+}
+
+.footer-sec .terms-of-use, .footer-sec .privacy-policy {
+    color: #FFF;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    text-transform: capitalize;
+    position: relative;
+    cursor: pointer;
+    text-wrap: nowrap;
+}
+
+.footer-sec .footer-gray-pokeball {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    position: relative;
+    top: 3px;
+}
+
+.footer-sec .footer-copyright-top, .footer-sec .footer-copyright-bottom {
+    color: #FFF;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    text-transform: capitalize;
+}
+
+.footer-sec .footer-copyright-top {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.footer-sec .footer-copyright-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
