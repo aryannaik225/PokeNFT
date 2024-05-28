@@ -656,7 +656,7 @@
             <span class="sev-subtext-3">Earn pokecoins</span>
         </div>
 
-        <div class="sev-explore-btn">
+        <div class="sev-explore-btn" onclick="redirectToPage('login-page.html')">
             <div class="sev-explore-btn-rec"></div>
             <img src="../assets/Small-pokeball.png" alt="" class="sev-explore-btn-pokeball">
             <span class="sev-explore-btn-text">Start your Journey</span>
@@ -822,6 +822,16 @@
                 }
             });
         });
+
+        //This function opens the page in new tab... useful if want to lead to a youtube video or any other page
+    function openPage(url) {
+        window.open(url, '_blank');
+    }
+
+        //This function redirects to the page in the same tab
+    function redirectToPage(url) {
+        window.location.href = url;
+    }
 
     </script>
 

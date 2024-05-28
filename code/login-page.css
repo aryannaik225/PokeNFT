@@ -1,0 +1,456 @@
+/* -------------------------------------Fonts------------------------------------- */
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(../assets/fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(../assets/fonts/Montserrat/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-SemiBold;
+    src: url(../assets/fonts/Montserrat/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Light;
+    src: url(../assets/fonts/Montserrat/Montserrat-Light.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-ExtraLight;
+    src: url(../assets/fonts/Montserrat/Montserrat-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url(../assets/fonts/Montserrat/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-ExtraBold;
+    src: url(../assets/fonts/Montserrat/Montserrat-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Black;
+    src: url(../assets/fonts/Montserrat/Montserrat-Black.ttf);
+}
+
+@font-face {
+    font-family: Pokemon-font;
+    src: url(../assets/fonts/pkmn_rbygsc/PKMN_RBYGSC.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(../assets/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(../assets/fonts/Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url(../assets/fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Light;
+    src: url(../assets/fonts/Poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: Poppins-ExtraLight;
+    src: url(../assets/fonts/Poppins/Poppins-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url(../assets/fonts/Poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: Poppins-ExtraBold;
+    src: url(../assets/fonts/Poppins/Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Black;
+    src: url(../assets/fonts/Poppins/Poppins-Black.ttf);
+}
+
+@font-face {
+    font-family: Quicksand-Regular;
+    src: url(../assets/fonts/Quicksand/Quicksand-Regular.ttf);
+}
+
+@font-face {
+    font-family: Quicksand-Bold;
+    src: url(../assets/fonts/Quicksand/Quicksand-Bold.ttf);
+}
+
+@font-face {
+    font-family: Quicksand-SemiBold;
+    src: url(../assets/fonts/Quicksand/Quicksand-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Quicksand-Light;
+    src: url(../assets/fonts/Quicksand/Quicksand-Light.ttf);
+}
+
+@font-face {
+    font-family: Quicksand-Medium;
+    src: url(../assets/fonts/Quicksand/Quicksand-Medium.ttf);
+}
+
+@font-face {
+    font-family: Lexend-Regular;
+    src: url(../assets/fonts/Lexend/Lexend-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lexend-Bold;
+    src: url(../assets/fonts/Lexend/Lexend-Bold.ttf);
+}
+
+@font-face {
+    font-family: Lexend-SemiBold;
+    src: url(../assets/fonts/Lexend/Lexend-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Lexend-Light;
+    src: url(../assets/fonts/Lexend/Lexend-Light.ttf);
+}
+
+@font-face {
+    font-family: Lexend-Medium;
+    src: url(../assets/fonts/Lexend/Lexend-Medium.ttf);
+}
+
+@font-face {
+    font-family: Lexend-ExtraBold;
+    src: url(../assets/fonts/Lexend/Lexend-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Lexend-Black;
+    src: url(../assets/fonts/Lexend/Lexend-Black.ttf);
+}
+
+@font-face {
+    font-family: LexendTera-Regular;
+    src: url(../assets/fonts/Lexend-Tera/LexendTera-Regular.ttf);
+}
+
+@font-face {
+    font-family: LexendTera-Bold;
+    src: url(../assets/fonts/Lexend-Tera/LexendTera-Bold.ttf);
+}
+
+@font-face {
+    font-family: LexendTera-SemiBold;
+    src: url(../assets/fonts/Lexend-Tera/LexendTera-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: LexendTera-Light;
+    src: url(../assets/fonts/Lexend-Tera/LexendTera-Light.ttf);
+}
+
+@font-face {
+    font-family: LexendTera-Medium;
+    src: url(../assets/fonts/Lexend-Tera/LexendTera-Medium.ttf);
+}
+
+@font-face {
+    font-family: LexendTera-ExtraBold;
+    src: url(../assets/fonts/Lexend-Tera/LexendTera-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: LexendTera-Black;
+    src: url(../assets/fonts/Lexend-Tera/LexendTera-Black.ttf);
+}
+
+@font-face {
+    font-family: LexendZetta-Regular;
+    src: url(../assets/fonts/Lexend_Zetta/LexendZetta-Regular.ttf);
+}
+
+@font-face {
+    font-family: Satoshi-Black;
+    src: url(../assets/fonts/Satoshi-Variable/Satoshi-Black.ttf);
+}
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+#myVideo {
+    position: fixed;
+    top: -200px;
+    left: 0;
+    width: 1920px;
+    height: 1080px;
+}
+
+.glass {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 397px;
+    height: 391px;
+    flex-shrink: 0;
+    background: rgba(0, 0, 0, 0.50);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(5px);
+    border-radius: 4px;
+}
+
+.username {
+    position: absolute;
+    top: 145px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 281px;
+    height: 33px;
+    flex-shrink: 0;
+}
+
+.username-rec {
+    width: 281px;
+    height: 33px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    border: 1px solid #FFF;
+    background: rgba(0, 0, 0, 0.50);
+    backdrop-filter: blur(5px);
+}
+
+.username-text {
+    color: #FFF;
+    font-family: "Montserrat-Light", Helvetica;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 50%;
+    left: 17px;
+    transform: translateY(-50%);
+    border: none; 
+    outline: none; 
+    background: transparent;
+    box-sizing: border-box; 
+}
+
+.username-text::placeholder {
+    color: #fff;
+    font-family: "Montserrat-Light", Helvetica;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.password {
+    top: 205px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 281px;
+    height: 33px;
+    flex-shrink: 0;
+    position: absolute;
+}
+
+.password-rec {
+    width: 281px;
+    height: 33px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    border: 1px solid #FFF;
+    background: rgba(0, 0, 0, 0.50);
+    backdrop-filter: blur(5px);
+}
+
+.password-text {
+    color: #FFF;
+    font-family: "Montserrat-Light", Helvetica;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 50%;
+    left: 17px;
+    transform: translateY(-50%);
+    border: none; 
+    outline: none; 
+    background: transparent;
+    box-sizing: border-box; 
+}
+
+.password-text::placeholder {
+    color: #fff;
+    font-family: "Montserrat-Light", Helvetica;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.welcome-text {
+    color: #FFF;
+    font-family: "Satoshi-Black", Helvetica;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    position: absolute;
+    top: 48px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-wrap: nowrap;
+}
+
+.rem-and-forgot {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 85px;
+    position: absolute;
+    top: 249px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 281px;
+    height: 13px;
+}
+
+.remember {
+    position: relative;
+    width: 101px;
+    height: 13px;
+}
+
+.rem-box {
+    width: 10px;
+    height: 10px;
+    flex-shrink: 0;
+    border-radius: 1px;
+    background: #FFF;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.rem-text {
+    color: #FFF;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    top: 0;
+    left: 16px;
+    position: absolute;
+    text-wrap: nowrap;
+}
+
+.forgot-pass {
+    color: #FFF;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: relative;
+    cursor: pointer;
+}
+
+.sign-in-btn {
+    position: absolute;
+    bottom: 66px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 281px;
+    height: 33px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    cursor: pointer;
+}
+
+.sign-in-rec {
+    width: 281px;
+    height: 33px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    border: 1px solid #FFF;
+    background: #FFF;
+}
+
+.sign-in-text {
+    color: #000;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.not-yet {
+    color: #FFF;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    bottom: 48px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+.go-back-btn {
+    width: 119.556px;
+    height: 27px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 18px;
+    left: 44.4px;
+}
+
+.go-back-arrow {
+    width: 16px;
+    height: 12px;
+    flex-shrink: 0;
+    position: absolute;
+    left: 0;
+    top: 7.33px;
+    cursor: pointer;
+}
+
+.go-back-text {
+    color: #FFF;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}

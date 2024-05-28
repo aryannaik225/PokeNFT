@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeNFT - SignIn</title>
+    <link rel="stylesheet" href="login-page.css">
+
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="../assets/mudkip-rainy-day-pond-pokemon-moewalls.mp4" type="video/mp4">
+    </video>
+
+    <div class="glass">
+        <div class="username">
+            <div class="username-rec"></div>
+            <input type="text" class="username-text" placeholder="Username...">
+        </div>
+
+        <div class="password">
+            <div class="password-rec"></div>
+            <input type="password" class="password-text" placeholder="Password...">
+        </div>
+
+        <div class="sign-in-btn">
+            <div class="sign-in-rec"></div>
+            <span class="sign-in-text">Login</span>
+        </div>
+
+        <span class="welcome-text">Welcome Back</span>
+
+        <div class="rem-and-forgot">
+            <div class="remember">
+                <div class="rem-box"></div>
+                <span class="rem-text">Remember me</span>
+            </div>
+            <span class="forgot-pass">Forgot Password</span>
+        </div>
+
+        <div class="not-yet" onclick="redirectToPage('register-page.html')">Not yet a Trainer? Register now</div>
+    </div>
+
+    <div class="go-back-btn">
+        <img src="../assets/go-back-arrow.svg" alt="" class="go-back-arrow" onclick="redirectToPage('landing-page.html')">
+        <span class="go-back-text" onclick="redirectToPage('landing-page.html')">Go Back</span>
+    </div>
+
+    <script>
+    function redirectToPage(url) {
+        window.location.href = url;
+    }
+    </script>
+
+
+</body>
+</html>
