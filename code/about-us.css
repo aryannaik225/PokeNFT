@@ -267,6 +267,12 @@
     height: 720px;
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .first-section {
+        height: 608px;
+    }
+}
+
 .first-section .nav-section {
     position: absolute;
     top: 0;
@@ -304,7 +310,8 @@
 
 .first-section .logo-div {
     position: relative;
-    top: 0;
+    top: 50%;
+    transform: translateY(-50%);
     /* left: 50%;
     transform: translateX(-50%); */
     width: 87px;
@@ -315,6 +322,20 @@
     /* background: yellowgreen; */
 }
 
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .first-section .logo-div {
+        width: 78px;
+        height: 81px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .first-section .logo-div {
+        width: 68px;
+        height: 72px;
+    }
+}
+
 .first-section .nav-logo-main {
     width: 81px;
     height: 68px;
@@ -323,6 +344,20 @@
     top: 0;
     left: 50%;
     transform: translateX(-50%);
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .first-section .nav-logo-main {
+        width: 73px;
+        height: 61px;
+    }
+}   
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .first-section .nav-logo-main {
+        width: 64px;
+        height: 54px;
+    }
 }
 
 .first-section .Pokenft-logo-text {
@@ -336,6 +371,18 @@
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .first-section .Pokenft-logo-text {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .first-section .Pokenft-logo-text {
+        font-size: 11px;
+    }
 }
 
 .first-section .nav-left {
@@ -408,6 +455,35 @@
     width: 90px;
 }
 
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .first-section .nav-explore {
+        width: 80px;
+    }
+
+    .first-section .nav-explore-text {
+        font-size: 16px;
+    }
+
+    .first-section .nav-explore:hover .explore-line {
+        width: 80px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .first-section .nav-explore {
+        width: 55px;
+    }
+
+    .first-section .nav-explore-text {
+        font-size: 11px;
+    }
+
+    .first-section .nav-explore:hover .explore-line {
+        width: 55px;
+    }
+}
+
+
 .first-section .nav-about {
     width: 68px;
     height: 22px;
@@ -443,6 +519,34 @@
     width: 70px;
 }
 
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .first-section .nav-about {
+        width: 60px;
+    }
+
+    .first-section .nav-about-text {
+        font-size: 16px;
+    }
+
+    .first-section .nav-about:hover .about-line {
+        width: 62px;
+    }
+}
+
+@media (min-width: 769px) and (max-width:1024px) {
+    .first-section .nav-about {
+        width: 42px;
+    }
+
+    .first-section .nav-about-text {
+        font-size: 11px;
+    }
+
+    .first-section .nav-about:hover .about-line {
+        width: 44px;
+    }
+}
+
 .first-section .nav-contact-us {
     width: 126px;
     height: 22px;
@@ -461,6 +565,7 @@
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
+    text-wrap: nowrap;
 }
 
 .first-section .contact-us-line {
@@ -476,6 +581,34 @@
 
 .first-section .nav-contact-us:hover .contact-us-line {
     width: 124px;
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .first-section .nav-contact-us {
+        width: 110px;
+    }
+
+    .first-section .nav-contact-us-text {
+        font-size: 16px;
+    }
+
+    .first-section .nav-contact-us:hover .contact-us-line {
+        width: 102px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .first-section .nav-contact-us {
+        width: 74px;
+    }
+
+    .first-section .nav-contact-us-text {
+        font-size: 11px;
+    }
+
+    .first-section .nav-contact-us:hover .contact-us-line {
+        width: 76px;
+    }
 }
 
 .first-section .nav-pokedex {
@@ -513,6 +646,34 @@
     width: 97px;
 }
 
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .first-section .nav-pokedex {
+        width: 85px;
+    }
+
+    .first-section .nav-pokedex-text {
+        font-size: 16px;
+    }
+
+    .first-section .nav-pokedex:hover .pokedex-line {
+        width: 80px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .first-section .nav-pokedex {
+        width: 59px;
+    }
+
+    .first-section .nav-pokedex-text {
+        font-size: 11px;
+    }
+
+    .first-section .nav-pokedex:hover .pokedex-line {
+        width: 61px;
+    }
+}
+
 .first-section .nav-collection {
     width: 124px;
     height: 22px;
@@ -520,6 +681,18 @@
     position: relative;
     /* background: red; */
     cursor: pointer;
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .first-section .nav-collection {
+        width: 112.012px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .first-section .nav-collection {
+        width: 76.01px;
+    }
 }
 
 .first-section .nav-ranking {
@@ -531,6 +704,18 @@
     cursor: pointer;
 }
 
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .first-section .nav-ranking {
+        width: 81.009px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .first-section .nav-ranking {
+        width: 56px;
+    }
+}
+
 .first-section .nav-rewards {
     width: 99.005px;
     height: 22px;
@@ -538,6 +723,18 @@
     position: relative;
     /* background: red; */
     cursor: pointer;
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .first-section .nav-rewards {
+        width: 89.1045px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .first-section .nav-rewards {
+        width: 62.2035px;
+    }
 }
 
 .first-section .nav-collection-text, .first-section .nav-ranking-text, .first-section .nav-rewards-text {
@@ -549,6 +746,18 @@
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .first-section .nav-collection-text, .first-section .nav-ranking-text, .first-section .nav-rewards-text {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .first-section .nav-collection-text, .first-section .nav-ranking-text, .first-section .nav-rewards-text {
+        font-size: 11px;
+    }
 }
 
 .first-section .collection-line, .first-section .ranking-line, .first-section .rewards-line {
@@ -566,12 +775,48 @@
     width: 126px;
 }
 
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .first-section .nav-collection:hover .collection-line {
+        width: 112.012px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .first-section .nav-collection:hover .collection-line {
+        width: 78.01px;
+    }
+}
+
 .first-section .nav-ranking:hover .ranking-line {
     width: 92px;
 }
 
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .first-section .nav-ranking:hover .ranking-line {
+        width: 81.009px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .first-section .nav-ranking:hover .ranking-line {
+        width: 58px;
+    }
+}
+
 .first-section .nav-rewards:hover .rewards-line {
     width: 101px;
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .first-section .nav-rewards:hover .rewards-line {
+        width: 89.1045px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .first-section .nav-rewards:hover .rewards-line {
+        width: 64px;
+    }
 }
 
 .first-section .nav-login {
@@ -583,6 +828,27 @@
     /* top: 50%; */
     /* right: 72px; */
     /* transform: translateY(-50%); */
+}
+
+.first-section .nav-login img{
+    width: 100%;
+    height: 100%;
+    border-radius: 27.5px;
+    object-fit: cover;
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .first-section .nav-login {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .first-section .nav-login {
+        width: 37px;
+        height: 37px;
+    }
 }
 
 .first-section .about-me {
@@ -616,6 +882,16 @@
     }
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .first-section .pokenft-side {
+        width: 101.5px;
+        height: 174px;
+        left: 0;
+        top: 116px;
+        /* background: aquamarine; */
+    }
+}
+
 .first-section .pokenft-text {
     /* transform: rotate(90deg); */
     color: #362A3D;
@@ -645,6 +921,16 @@
     }
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .first-section .pokenft-text {
+        font-size: 45px;
+        width: 174px;
+        height: 101.5px;
+        top: 36.5px;
+        right: -26.5px;
+    }
+}
+
 .first-section .pokenft-jap-txt {
     color: #000;
     font-family: "Hannari-Regular", Helvetica;
@@ -666,6 +952,14 @@
     }
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .first-section .pokenft-jap-txt {
+        font-size: 8px;
+        right: 18px;
+        top: 1px;
+    }
+}
+
 .first-section .pokenft-side-rec {
     width: 5px;
     height: 38px;
@@ -680,6 +974,13 @@
 @media (min-width: 1025px) and (max-width: 1200px) {
     .first-section .pokenft-side-rec {
         height: 32.015px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .first-section .pokenft-side-rec {
+        height: 28px;
+        left: 28px;
     }
 }
 
@@ -699,6 +1000,18 @@
     text-wrap: nowrap;
 }
 
+@media (min-width:1025px) and (max-width:1200px) {
+    .first-section .about-me-txt1 {
+        font-size: 96px;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    .first-section .about-me-txt1 {
+        font-size: 72px;
+    }
+}
+
 .first-section .about-me-txt2 {
     position: absolute;
     top: 143px;
@@ -707,6 +1020,18 @@
     display: flex;
     gap: 3px;
     justify-content: space-between;
+}
+
+@media (min-width:1025px) and (max-width:1200px) {
+    .first-section .about-me-txt2 {
+        top: 107px;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    .first-section .about-me-txt2 {
+        top: 80px;
+    }
 }
 
 .first-section .about-me-txt21 {
@@ -747,8 +1072,24 @@
     position: absolute;
 }
 
+@media (min-width:1025px) and (max-width:1200px) {
+    .first-section .about-me-txt3 {
+        bottom: 37px;
+        /* font-size: 10px; */
+        /* width: 500px; */
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    .first-section .about-me-txt3 {
+        bottom: 62px;
+        /* font-size: 8px; */
+        /* width: 400px; */
+    }
+}
+
 .first-section .pokeballs-bg {
-    width: 1051px;
+    width: 72.98%;
     height: 709px;
     flex-shrink: 0;
     position: absolute;
@@ -757,9 +1098,16 @@
     /* background: aquamarine; */
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .first-section .pokeballs-bg {
+        height: 608px;
+    }
+}
+
 .first-section .pokeball-1 {
-    width: 99px;
-    height: 99px;
+    width: 6.875%;
+    aspect-ratio: 1/1;
+    /* height: 99px; */
     flex-shrink: 0;
     border-radius: 542px;
     position: absolute;
@@ -767,9 +1115,17 @@
     bottom: 0;
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .first-section .pokeball-1 {
+        width: 8%;
+        bottom: -5px;
+    }
+}
+
 .first-section .pokeball-2 {
-    width: 74px;
-    height: 74px;
+    width: 5.13%;
+    aspect-ratio: 1/1;
+    /* height: 74px; */
     /* transform: rotate(-27.826deg); */
     flex-shrink: 0;
     border-radius: 542px;
@@ -778,9 +1134,18 @@
     left: 74px;
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .first-section .pokeball-2 {
+        width: 6.667%;
+        top: 13.47%;
+        left: 5.957%;
+    }
+}
+
 .first-section .pokeball-3 {
-    width: 96px;
-    height: 96px;
+    width: 6.667%;
+    aspect-ratio: 1/1;
+    /* height: 96px; */
     /* transform: rotate(-135.21deg); */
     flex-shrink: 0;
     border-radius: 542px;
@@ -789,14 +1154,30 @@
     bottom: 163px;
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .first-section .pokeball-3 {
+        width: 8.333%;
+        bottom: 13.671875%;
+        right: 16.015625%;
+    }
+}
+
 .first-section .pokeball-4 {
-    width: 177px;
-    height: 177px;
+    width: 12.29%;
+    aspect-ratio: 1/1;
+    /* height: 177px; */
     flex-shrink: 0;
     border-radius: 143px;
     position: absolute;
     top: 0;
     right: 0;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .first-section .pokeball-4 {
+        top: 7.8125%;
+        right: 11.1328125%;
+    }
 }
 
 .first-second-transition {
@@ -821,6 +1202,13 @@
     left: 0;
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .second-sec {
+        top: 608px;
+        height: 533.69024px;
+    }
+}
+
 .second-sec .bg-shapes {
     width: 74.63%;
     height: 515px;
@@ -830,6 +1218,12 @@
     transform: translateX(-50%);
     position: absolute;
     /* background: aquamarine; */
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .second-sec .bg-shapes {
+        height: 434.8899px;
+    }
 }
 
 .second-sec .bg-shape1 {
@@ -898,6 +1292,13 @@
     }
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .second-sec .reshiram {
+        width: 145px;
+        height: 145.98px;
+    }
+}
+
 .second-sec .ludicolo {
     width: 183px;
     height: 186px;
@@ -920,6 +1321,15 @@
     }
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .second-sec .ludicolo {
+        width: 128px;
+        height: 130px;
+        bottom: 60px;
+        left: 8.42%;
+    }
+}
+
 .second-sec .welcome {
     width: 588px;
     height: 209px;
@@ -929,6 +1339,13 @@
     transform: translateX(-50%);
     position: absolute;
     /* background: aquamarine; */
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .second-sec .welcome {
+        width: 400px;
+        height: 170px;
+    }
 }
 
 .second-sec .welcome-1 {
@@ -943,6 +1360,15 @@
     position: absolute;
     top: 0;
     left: 0;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .second-sec .welcome-1 {
+        font-size: 48px;
+        left: 50%;  
+        transform: translateX(-50%);
+        text-wrap: nowrap;
+    }
 }
 
 .second-sec .welcome-2 {
@@ -961,6 +1387,14 @@
     transform: translateX(-50%);
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .second-sec .welcome-2 {
+        font-size: 12px;
+        top: 62px;
+        width: 380px;
+    }
+}
+
 .second-sec .welcome-3 {
     color: #FFF;
     text-align: center;
@@ -976,6 +1410,13 @@
     transform: translateX(-50%);
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .second-sec .welcome-3 {
+        font-size: 10px;
+        width: 250px;
+    }
+}
+
 .second-sec .mission {
     width: 519px;
     height: 155px;
@@ -985,6 +1426,13 @@
     transform: translateX(-50%);
     position: absolute;
     /* background: tomato; */
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .second-sec .mission {
+        width: 380px;
+        height: 120px;
+    }
 }
 
 .second-sec .mission-1 {
@@ -1001,6 +1449,12 @@
     left: 50%;
     transform: translateX(-50%);
     text-wrap: nowrap;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .second-sec .mission-1 {
+        font-size: 48px;
+    }
 }
 
 .second-sec .mission-2 {
@@ -1020,6 +1474,13 @@
     /* z-index: 100; */
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .second-sec .mission-2 {
+        font-size: 12px;
+        width: 380px;
+    }
+}
+
 /* -------------------------------------Third Section-------------------------------------------- */
 
 .third-sec {
@@ -1028,9 +1489,16 @@
     flex-shrink: 0;
     background: transparent;
     position: absolute;
-    top: 1352px;
+    top: 1351px;
     left: 0;
     z-index: 0;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .third-sec {
+        top: 1141px;
+        height: 608px;
+    }
 }
 
 .third-sec .third-sec-rec {
@@ -1040,7 +1508,14 @@
     background: #1E1822;
     position: absolute;
     top: 0;
-    left: 0;z-index: 0;
+    left: 0;
+    z-index: 0;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .third-sec .third-sec-rec {
+        height: 608px;
+    }
 }
 
 .third-sec .bg-shapes {
@@ -1052,6 +1527,12 @@
     transform: translateX(-50%);
     position: absolute;
     /* background: aquamarine; */
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .third-sec .bg-shapes {
+        height: 434.8899px;
+    }
 }
 
 .third-sec .bg-shape1 {
@@ -1112,6 +1593,13 @@
     /* background: aquamarine; */
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .third-sec .everything {
+        height: 434.8899px;
+        top: 92.0445px;
+    }
+}
+
 .third-sec .what-offer-div {
     width: 620px;
     height: 144px;
@@ -1121,6 +1609,14 @@
     top: 171px;
     position: absolute;
     /* background: tomato; */
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .third-sec .what-offer-div {
+        top: 50%;
+        transform: translate(-50%, -50%);
+        height: 100px;
+    }
 }
 
 .third-sec .what-offer-txt {
@@ -1139,6 +1635,12 @@
     text-wrap: nowrap;
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .third-sec .what-offer-txt {
+        font-size: 48px;
+    }
+}
+
 .third-sec .what-offer-subtxt {
     color: #FFF;
     text-align: center;
@@ -1152,6 +1654,13 @@
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .third-sec .what-offer-subtxt {
+        font-size: 12px;
+        width: 400px;
+    }
 }
 
 .third-sec .currency-widget {
@@ -1172,6 +1681,14 @@
     }
 } */
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .third-sec .currency-widget {
+        width: 210.72px;
+        height: 81.95px;
+        bottom: 60px;
+    }
+}
+
 .third-sec .currency-widget-img {
     width: 112px;
     height: 112px;
@@ -1190,6 +1707,14 @@
     }
 } */
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .third-sec .currency-widget-img {
+        width: 81.95px;
+        height: 81.95px;
+        border-radius: 25px;
+    }
+}
+
 .third-sec .currency-widget-box {
     width: 206px;
     height: 54px;
@@ -1205,6 +1730,13 @@
         height: 39.51px;
     }
 } */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .third-sec .currency-widget-box {
+        width: 150.723px;
+        height: 39.51px;
+    }
+}
 
 .third-sec .currency-widget-rec {
     width: 206px;
@@ -1223,6 +1755,13 @@
         height: 39.51px;
     }
 } */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .third-sec .currency-widget-rec {
+        width: 150.723px;
+        height: 39.51px;
+    }
+}
 
 .third-sec .currency-widget-text {
     color: #362A3D;
@@ -1246,6 +1785,13 @@
     }
 } */
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .third-sec .currency-widget-text {
+        font-size: 10px;
+        left: 40.24px;
+    }
+}
+
 .third-sec .currency-widget-circle-div {
     width: 37px;
     height: 37px;
@@ -1263,6 +1809,14 @@
         left: 6.58px;
     }
 } */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .third-sec .currency-widget-circle-div {
+        width: 27.072px;
+        height: 27.072px;
+        left: 6.58px;
+    }
+}
 
 .third-sec .currency-widget-circle {
     width: 37px;
@@ -1282,6 +1836,13 @@
     }
 } */
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .third-sec .currency-widget-circle {
+        width: 27.072px;
+        height: 27.072px;
+    }
+}
+
 .third-sec .currency-widget-pikachu {
     width: 9.044px;
     height: 9.044px;
@@ -1293,7 +1854,14 @@
     transform: rotate(270deg);
 }
 
-
+@media (min-width: 769px) and (max-width: 1024px) {
+    .third-sec .currency-widget-pikachu {
+        width: 6.618px;
+        height: 6.618px;
+        top: 1.46px;
+        left: 10.24px;
+    }
+}
 
 .third-sec .community-widget {
     bottom: 0px;
@@ -1305,6 +1873,13 @@
     /* background: tomato; */
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .third-sec .community-widget {
+        width: 229.75px;
+        height: 108.29px;
+        right: 50px;
+    }
+}
 
 .third-sec .community-widget-img {
     width: 148px;
@@ -1316,6 +1891,13 @@
     left: 0;
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .third-sec .community-widget-img {
+        width: 108.29px;
+        height: 108.29px;
+        border-radius: 33px;
+    }
+}
 
 .third-sec .community-widget-box {
     width: 209px;
