@@ -273,6 +273,12 @@
     }
 }
 
+@media (min-width: 481px) and (max-width: 768px) {
+    .first-section {
+        height: 608px;
+    }
+}
+
 .first-section .nav-section {
     position: absolute;
     top: 0;
@@ -281,6 +287,12 @@
     height: 96px;
     flex-shrink: 0;
     /* background: violet; */
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .first-section .nav-section {
+        height: 41px;
+    }
 }
 
 .first-section .nav-grp {
@@ -296,6 +308,12 @@
     justify-content: space-between;
 }
 
+@media (min-width: 481px) and (max-width: 768px) {
+    .first-section .nav-grp {
+        height: 41px;
+    }
+}
+
 .first-section .nav-bar-rec {
     position: absolute;
     top: 0;
@@ -306,6 +324,12 @@
     background: rgba(0, 0, 0, 0.50);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(5px);
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .first-section .nav-bar-rec {
+        height: 41px;
+    }
 }
 
 .first-section .logo-div {
@@ -336,6 +360,13 @@
     }
 }
 
+@media (min-width: 481px) and (max-width: 768px) {
+    .first-section .logo-div {
+        width: 35.689px;
+        height: 39.682px;
+    }
+}
+
 .first-section .nav-logo-main {
     width: 81px;
     height: 68px;
@@ -357,6 +388,13 @@
     .first-section .nav-logo-main {
         width: 64px;
         height: 54px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .first-section .nav-logo-main {
+        width: 35.689px;
+        height: 30.72px;
     }
 }
 
@@ -382,6 +420,12 @@
 @media (min-width: 769px) and (max-width: 1024px) {
     .first-section .Pokenft-logo-text {
         font-size: 11px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .first-section .Pokenft-logo-text {
+        font-size: 5px;
     }
 }
 
@@ -862,6 +906,14 @@
     /* background: aqua; */
 }
 
+@media (min-width: 481px) and (max-width: 768px) {
+    .first-section .about-me {
+        width: 392px;
+        height: 116px;
+        top: 188px;
+    }
+}
+
 .first-section .pokenft-side {
     width: 130px;
     height: 223px;
@@ -888,6 +940,16 @@
         height: 174px;
         left: 0;
         top: 116px;
+        /* background: aquamarine; */
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .first-section .pokenft-side {
+        width: 31px;
+        height: 75px;
+        left: 1;
+        top: 53px;
         /* background: aquamarine; */
     }
 }
@@ -931,6 +993,19 @@
     }
 }
 
+@media (min-width: 481px) and (max-width: 768px) {
+    .first-section .pokenft-text {
+        font-size: 24px;
+        width: 75px;
+        height: 43px;
+        /* top: 16px;
+        right: -5px; */
+        top: 16px;
+        right: -10px;
+        line-height: 100%;
+    }
+}
+
 .first-section .pokenft-jap-txt {
     color: #000;
     font-family: "Hannari-Regular", Helvetica;
@@ -960,6 +1035,16 @@
     }
 }
 
+@media (min-width: 481px) and (max-width: 768px) {
+    .first-section .pokenft-jap-txt {
+        font-size: 5px;
+        top: 0px;
+        right: 0px;
+        width: 5px;
+        height: 24px;
+    }
+}
+
 .first-section .pokenft-side-rec {
     width: 5px;
     height: 38px;
@@ -981,6 +1066,15 @@
     .first-section .pokenft-side-rec {
         height: 28px;
         left: 28px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .first-section .pokenft-side-rec {
+        width: 3px;
+        height: 16px;
+        top: 1px;
+        left: 0px;
     }
 }
 
@@ -1012,6 +1106,13 @@
     }
 }
 
+@media (min-width: 481px) and (max-width: 768px) {
+    .first-section .about-me-txt1 {
+        font-size: 64px;
+        text-shadow: 0px 0px 61px rgba(0, 0, 0, 0.50);
+    }
+}
+
 .first-section .about-me-txt2 {
     position: absolute;
     top: 143px;
@@ -1034,6 +1135,14 @@
     }
 }
 
+@media (min-width: 481px) and (max-width: 768px) {
+    .first-section .about-me-txt2 {
+        top: 67px;
+        width: 173px;
+        height: 10px;
+    }
+}
+
 .first-section .about-me-txt21 {
     color: #000;
     font-family: "Satoshi-Medium", Helvetica;
@@ -1046,6 +1155,15 @@
     text-wrap: nowrap;
 }
 
+@media (min-width: 481px) and (max-width: 768px) {
+    .first-section .about-me-txt21 {
+        font-size: 12px;
+        font-family: "Satoshi-Regular", Helvetica;
+        font-weight: 400;
+        letter-spacing: 2.88px;
+    }
+}
+
 .first-section .about-me-txt22 {
     color: #000;
     font-family: "Satoshi-Black", Helvetica;
@@ -1056,6 +1174,15 @@
     text-transform: uppercase;
     position: relative;
     text-wrap: nowrap;
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .first-section .about-me-txt22 {
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 2.88px;
+        font-family: "Satoshi-Bold", Helvetica;
+    }
 }
 
 .first-section .about-me-txt3 {
@@ -1088,6 +1215,16 @@
     }
 }
 
+@media (min-width: 481px) and (max-width: 768px) {
+    .first-section .about-me-txt3 {
+        bottom: 0;
+        width: 392px;
+        font-family: "Satoshi-Regular", Helvetica;
+        font-size: 8px;
+        font-weight: 400;
+    }
+}
+
 .first-section .pokeballs-bg {
     width: 72.98%;
     height: 709px;
@@ -1101,6 +1238,15 @@
 @media (min-width: 769px) and (max-width: 1024px) {
     .first-section .pokeballs-bg {
         height: 608px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .first-section .pokeballs-bg {
+        height: 401px;
+        width: 83.9916%;
+        left: 45px;
+        top: 33px;
     }
 }
 
@@ -1119,6 +1265,14 @@
     .first-section .pokeball-1 {
         width: 8%;
         bottom: -5px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .first-section .pokeball-1 {
+        width: 11.38%;
+        bottom: 0;
+        left: 0;
     }
 }
 
@@ -1142,6 +1296,14 @@
     }
 }
 
+@media (min-width: 481px) and (max-width: 768px) {
+    .first-section .pokeball-2 {
+        width: 6.93069%;
+        top: 20.2970297%;
+        left: 9.405940%;
+    }
+}
+
 .first-section .pokeball-3 {
     width: 6.667%;
     aspect-ratio: 1/1;
@@ -1159,6 +1321,14 @@
         width: 8.333%;
         bottom: 13.671875%;
         right: 16.015625%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .first-section .pokeball-3 {
+        width: 13.3663%;
+        bottom: 18.96039%;
+        right: 8.06930%;
     }
 }
 
@@ -1180,6 +1350,14 @@
     }
 }
 
+@media (min-width: 481px) and (max-width: 768px) {
+    .first-section .pokeball-4 {
+        width: 17.57425%;
+        top: 0;
+        right: 0;
+    }
+}
+
 .first-second-transition {
     width: 141.074px;
     height: 28px;
@@ -1190,6 +1368,13 @@
     transform: translateX(-50%);
 }
 
+@media (min-width: 481px) and (max-width: 768px) {
+    .first-second-transition {
+        width: 66.121px;
+        height: 13.625px;
+        top: 434px;
+    }
+}
 /* -----------------------------------------Second Section---------------------------------------------- */
 
 .second-sec {
@@ -1206,6 +1391,13 @@
     .second-sec {
         top: 608px;
         height: 533.69024px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .second-sec {
+        height: 268.276px;
+        top: 444px;
     }
 }
 
@@ -1226,6 +1418,14 @@
     }
 }
 
+@media (min-width: 481px) and (max-width: 768px) {
+    .second-sec .bg-shapes {
+        height: 241.276px;
+        top: 27px;
+        width: 87.11%;
+    }
+}
+
 .second-sec .bg-shape1 {
     width: 21px;
     height: 21px;
@@ -1236,6 +1436,15 @@
     position: absolute;
     top: 27.7px;
     left: 0;
+}
+
+@media (min-width: 481px) and (max-width: 768) {
+    .second-sec .bg-shape1 {
+        width: 9.838px;
+        height: 9.838px;
+        border-radius: 3px;
+        top: 13px;
+    }
 }
 
 .second-sec .bg-shape2 {
@@ -1251,6 +1460,15 @@
     right: 61px;
 }
 
+@media (min-width: 481px) and (max-width: 768px) {
+    .second-sec .bg-shape2 {
+        width: 7.027px;
+        height: 7.027px;
+        top: 0;
+        right: 0px;
+    }
+}
+
 .second-sec .bg-shape3 {
     width: 60px;
     height: 60px;
@@ -1260,6 +1478,13 @@
     position: absolute;
     top: 218px;
     left: 242px;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .second-sec .bg-shape3 {
+        top: 184.5px;
+        left: 169px;
+    }
 }
 
 .second-sec .bg-shape4 {
@@ -1312,7 +1537,7 @@
     /* box-shadow: 0px 0px 156.4px -29px #61FF00; */
     filter: drop-shadow(0px 0px 70px #61FF00);
     /* filter: drop-shadow(10px 10px 29px #61FF00); */
-    z-index: 1;
+    z-index: 2;
 }
 
 @media (min-width: 1025px) and (max-width: 1200px) {
@@ -1491,7 +1716,7 @@
     position: absolute;
     top: 1351px;
     left: 0;
-    z-index: 0;
+    z-index: 1;
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -2450,6 +2675,15 @@
     position: absolute;
     top: 2072px;
     left: 0;
+    z-index: 0;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .fourth-sec {
+        top: 1649px;
+        height: 508px;
+        /* background: #61FF00; */
+    }
 }
 
 .fourth-sec .fourth-sec-txt-div {
@@ -2461,6 +2695,13 @@
     transform: translate(-50%, -50%);
     position: absolute;
     /* background: tomato; */
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .fourth-sec .fourth-sec-txt-div {
+        width: 660px;
+        height: 150px;
+    }
 }
 
 .fourth-sec .fourth-sec-header {
@@ -2479,6 +2720,12 @@
     text-wrap: nowrap;
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .fourth-sec .fourth-sec-header {
+        font-size: 64px;
+    }
+}
+
 .fourth-sec .fourth-sec-subheader {
     width: 520px;
     color: #362A3D;
@@ -2495,6 +2742,14 @@
     transform: translateX(-50%);
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .fourth-sec .fourth-sec-subheader {
+        font-size: 14px;
+        width: 440px;
+        top: 60px;
+    }
+}
+
 .fourth-sec .fourth-sec-subheaderr {
     color: #362A3D;
     font-family: "Satoshi-Black", Helvetica;
@@ -2509,6 +2764,12 @@
     transform: translateX(-50%);
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .fourth-sec .fourth-sec-subheaderr {
+        font-size: 14px;
+    }
+}
+
 .fourth-sec .fourth-sec-pokeballs {
     width: 72.8125%;
     height: 709px;
@@ -2518,6 +2779,12 @@
     left: 50%;
     transform: translate(-50%, -50%);
     /* background: aquamarine; */
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .fourth-sec .fourth-sec-pokeballs {
+        height: 500.2389284px;
+    }
 }
 
 .fourth-sec .pokeball-1 {
@@ -2530,6 +2797,13 @@
     left: 0;
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .fourth-sec .pokeball-1 {
+        width: 72px;
+        height: 72px;
+    }
+}
+
 .fourth-sec .pokeball-2 {
     width: 74px;
     height: 74px;
@@ -2538,6 +2812,15 @@
     position: absolute;
     top: 161px;
     left: 74px;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .fourth-sec .pokeball-2 {
+        width: 54px;
+        height: 54px;
+        top: 135px;
+        left: 54px;
+    }
 }
 
 .fourth-sec .pokeball-3 {
@@ -2550,6 +2833,15 @@
     right: 162px;
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .fourth-sec .pokeball-3 {
+        width: 70px;
+        height: 70px;
+        bottom: 115px;
+        right: 115px;
+    }
+}
+
 .fourth-sec .pokeball-4 {
     width: 177px;
     height: 177px;
@@ -2558,6 +2850,13 @@
     position: absolute;
     top: 0;
     right: 0;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .fourth-sec .pokeball-4 {
+        width: 129px;
+        height: 129px;
+    }
 }
 
 .fourth-sec .pokenft-side {
@@ -2647,6 +2946,41 @@
     }
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .fourth-sec .pokenft-side {
+        width: 101.5px;
+        height: 174px;
+        left: 0;
+        top: 24px;
+        /* background: aquamarine; */
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .fourth-sec .pokenft-text {
+        font-size: 45px;
+        width: 174px;
+        height: 101.5px;
+        top: 36.5px;
+        right: -26.5px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .fourth-sec .pokenft-jap-txt {
+        font-size: 8px;
+        right: 18px;
+        top: 1px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .fourth-sec .pokenft-side-rec {
+        height: 28px;
+        left: 28px;
+    }
+}
+
 .fourth-sec .start-journey-btn {
     width: 249px;
     height: 63px;
@@ -2657,6 +2991,14 @@
     position: absolute;
     border-radius: 40px;
     cursor: pointer;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .fourth-sec .start-journey-btn {
+        width: 164px;
+        height: 48px;
+        bottom: 20px;
+    }
 }
 
 .fourth-sec .start-journey-rec {
@@ -2673,6 +3015,14 @@
     transition: all ease-in-out 0.3s;
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .fourth-sec .start-journey-rec {
+        width: 160px;
+        height: 44px;
+        box-shadow: 3px 3px 0px 0px #000;
+    }
+}
+
 .fourth-sec .start-journey-txt {
     color: #000;
     font-family: "Montserrat-SemiBold", Helvetica;
@@ -2687,6 +3037,13 @@
     transition: all ease-in-out 0.3s;
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .fourth-sec .start-journey-txt {
+        font-size: 11px;
+        left: 10px;
+    }
+}
+
 .fourth-sec .start-journey-pokeball {
     width: 46px;
     height: 46px;
@@ -2698,13 +3055,29 @@
     transition: all ease-in-out 0.3s;
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .fourth-sec .start-journey-pokeball {
+        width: 32px;
+        height: 32px;
+        right: 6px;
+    }
+}
+
 .fourth-sec .start-journey-btn:active .start-journey-rec {
     box-shadow: 0px 0px 0px 0px #000;
     top: 4px;
     left: 4px;
 }
 
-.fourth-sec .start-journey-btn:active .start-journey-txt {
+@media (min-width: 769px) and (max-width: 1024px) {
+    .fourth-sec .start-journey-btn:active .start-journey-rec {
+        box-shadow: 0px 0px 0px 0px #000;
+        top: 3px;
+        left: 3px;
+    }
+}
+
+/* .fourth-sec .start-journey-btn:active .start-journey-txt {
     left: 30px;
     top: 57%;
 }
@@ -2712,7 +3085,7 @@
 .fourth-sec .start-journey-btn:active .start-journey-pokeball {
     right: 6px;
     top: 57%;
-}
+} */
 
 .fourth-sec .footer-transition {
     width: 121.393px;
@@ -2735,9 +3108,16 @@
     background: linear-gradient(90deg, #1F1F1F 0%, #202020 100%);
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .footer-sec {
+        top: 2157px;
+        height: 305px;
+    }
+}
+
 .footer-sec .footer-bottom {
     width: 88.36%;
-    height: 367px;
+    height: 290px;
     flex-shrink: 0;
     left: 50%;
     transform: translateX(-50%);
@@ -2757,6 +3137,13 @@
     /* background: #0FF; */
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .footer-sec .footer-logo-and-text {
+        width: 230.54px;
+        height: 190.5px;
+    }
+}
+
 .footer-sec .footer-logo {
     width: 304px;
     height: 94px;
@@ -2767,6 +3154,13 @@
     /* background: #0F6; */
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .footer-sec .footer-logo {
+        width: 230.54px;
+        height: 71.25px;
+    }
+}
+
 .footer-sec .footer-logo-img {
     width: 112px;
     height: 94px;
@@ -2774,6 +3168,13 @@
     top: 0;
     left: 0;
     position: absolute;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .footer-sec .footer-logo-img {
+        width: 84.5px;
+        height: 71.25px;
+    }
 }
 
 .footer-sec .footer-logo-text {
@@ -2788,6 +3189,13 @@
     position: absolute;
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .footer-sec .footer-logo-text {
+        font-size: 30px;
+        top: 22.5px;
+    }
+}
+
 .footer-sec .footer-text {
     width: 307px;
     height: 128px;
@@ -2796,6 +3204,15 @@
     left: 0;
     position: absolute;
     /* background: #0F6; */
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .footer-sec .footer-text {
+        width: 230.54px;
+        height: 106px;
+        bottom: 0px;
+        left: 5px;
+    }
 }
 
 .footer-sec .footer-text-text {
@@ -2811,6 +3228,13 @@
     position: absolute;
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .footer-sec .footer-text-text {
+        font-size: 10px;
+        top: 0;
+    }
+}
+
 .footer-sec .footer-socials {
     display: inline-flex;
     align-items: flex-start;
@@ -2823,6 +3247,14 @@
     width: 192px;
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .footer-sec .footer-socials {
+        gap: 18px;
+        height: 22.5px;
+        width: 122px;
+    }
+}
+
 .footer-sec .footer-discord, .footer-sec .footer-twitter, .footer-sec .footer-instagram, .footer-sec .footer-facebook {
     width: 30px;
     height: 30px;
@@ -2830,6 +3262,13 @@
     position: relative;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .footer-sec .footer-discord, .footer-sec .footer-twitter, .footer-sec .footer-instagram, .footer-sec .footer-facebook {
+        width: 22.5px;
+        height: 22.5px;
+    }
 }
 
 .footer-sec .footer-discord {
@@ -2882,6 +3321,14 @@
     /* background: tomato; */
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .footer-sec .footer-marketplace-links {
+        width: 285px;
+        height: 158px;
+        top: 26px;
+    }
+}
+
 .footer-sec .footer-marketplace {
     width: 157px;
     height: 202px;
@@ -2891,6 +3338,14 @@
     position: absolute;
     /* background: #0FF; */
 }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .footer-sec .footer-marketplace {
+        width: 107px;
+        height: 148px;
+    }
+}
+
 .footer-sec .footer-links {
     width: 107px;
     height: 202px;
@@ -2899,6 +3354,13 @@
     right: 0;
     position: absolute;
     /* background: #0FF; */
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .footer-sec .footer-links {
+        width: 78px;
+        height: 148px;
+    }
 }
 
 .footer-sec .marketplace-text, .footer-sec .links-text {
@@ -2912,6 +3374,12 @@
     top: 0;
     left: 0;
     position: absolute;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .footer-sec .marketplace-text, .footer-sec .links-text {
+        font-size: 16px;
+    }
 }
 
 .footer-sec .marketplace, .footer-sec .links {
@@ -2928,6 +3396,13 @@
     left: 0;
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .footer-sec .marketplace, .footer-sec .links {
+        width: 78px;
+        height: 100px;
+    }
+}
+
 .footer-sec .marketplace-explore, .footer-sec .marketplace-articles, .footer-sec .marketplace-howitworks, .footer-sec .marketplace-help, .footer-sec .links-contact, .footer-sec .links-about-us, .footer-sec .links-credits, .footer-sec .links-becoming-partners {
     color: #FFF;
     font-family: "Montserrat-Regular", Helvetica;
@@ -2940,6 +3415,12 @@
     cursor: pointer;
     text-wrap: nowrap;
     transition: all 0.3s ease-in-out;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .footer-sec .marketplace-explore, .footer-sec .marketplace-articles, .footer-sec .marketplace-howitworks, .footer-sec .marketplace-help, .footer-sec .links-contact, .footer-sec .links-about-us, .footer-sec .links-credits, .footer-sec .links-becoming-partners {
+        font-size: 12px;
+    }
 }
 
 .footer-sec .marketplace-explore:hover, .footer-sec .marketplace-articles:hover, .footer-sec .marketplace-howitworks:hover, .footer-sec .marketplace-help:hover, .footer-sec .links-contact:hover, .footer-sec .links-about-us:hover, .footer-sec .links-credits:hover, .footer-sec .links-becoming-partners:hover {
@@ -2958,6 +3439,13 @@
     /* background: #0C5C99; */
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .footer-sec .footer-bottom-bottom {
+        width: 536px;
+        height: 50px;
+    }
+}
+
 .footer-sec .footer-terms-privacy {
     width: 233px;
     height: 27px;
@@ -2971,6 +3459,14 @@
     gap: 26px;
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .footer-sec .footer-terms-privacy {
+        width: 174px;
+        height: 20.25px;
+        gap: 19px;
+    }
+}
+
 .footer-sec .footer-copyrights {
     width: 536px;
     height: 49px;
@@ -2978,6 +3474,16 @@
     left: 0;
     bottom: 0;
     position: absolute;
+    /* background: #0F6; */
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .footer-sec .footer-copyrights {
+        width: 400px;
+        height: 28px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
 
 .footer-sec .terms-of-use, .footer-sec .footer-gray-pokeball, .footer-sec .privacy-policy {
@@ -2997,12 +3503,28 @@
     text-wrap: nowrap;
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .footer-sec .terms-of-use, .footer-sec .privacy-policy {
+        font-size: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
 .footer-sec .footer-gray-pokeball {
     width: 18px;
     height: 18px;
     flex-shrink: 0;
     position: relative;
     top: 3px;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .footer-sec .footer-gray-pokeball {
+        width: 13.5px;
+        height: 13.5px;
+        top: 2.25px;
+    }
 }
 
 .footer-sec .footer-copyright-top, .footer-sec .footer-copyright-bottom {
@@ -3015,15 +3537,38 @@
     text-transform: capitalize;
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .footer-sec .footer-copyright-top, .footer-sec .footer-copyright-bottom {
+        font-size: 10px;
+        text-wrap: nowrap;
+        line-height: normal;
+    }
+}
+
 .footer-sec .footer-copyright-top {
     position: absolute;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
+    /* background: #8E00B2; */
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .footer-sec .footer-copyright-top {
+        top: 0;
+    }
 }
 
 .footer-sec .footer-copyright-bottom {
     position: absolute;
     bottom: 0;
     left: 0;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .footer-sec .footer-copyright-bottom {
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
