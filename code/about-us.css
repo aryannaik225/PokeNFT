@@ -1438,7 +1438,7 @@
     left: 0;
 }
 
-@media (min-width: 481px) and (max-width: 768) {
+@media (min-width: 481px) and (max-width: 768px) {
     .second-sec .bg-shape1 {
         width: 9.838px;
         height: 9.838px;
@@ -1820,6 +1820,13 @@
     }
 }
 
+@media (min-width: 481px) and (max-width: 768px) {
+    .third-sec {
+        height: 269.72px;
+        top: 711px;
+    }
+}    
+
 .third-sec .third-sec-rec {
     width: 100%;
     height: 720px;
@@ -1834,6 +1841,12 @@
 @media (min-width: 769px) and (max-width: 1024px) {
     .third-sec .third-sec-rec {
         height: 508px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .third-sec .third-sec-rec {
+        height: 269.72px;
     }
 }
 
@@ -1854,6 +1867,14 @@
     }
 }
 
+@media (min-width: 481px) and (max-width: 768px) {
+    .third-sec .bg-shapes {
+        width: 81.0374%;
+        height: 241.276px;
+        top: 18px;
+    }
+}
+
 .third-sec .bg-shape1 {
     width: 21px;
     height: 21px;
@@ -1864,6 +1885,16 @@
     position: absolute;
     bottom: 27.7px;
     right: 0;
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .third-sec .bg-shape1 {
+        width: 8.568px;
+        height: 8.568px;
+        border-radius: 3px;
+        bottom: 11.3px;
+    }
+
 }
 
 .third-sec .bg-shape2 {
@@ -1879,6 +1910,15 @@
     left: 61px;
 }
 
+@media (min-width: 481px) and (max-width: 768px) {
+    .third-sec .bg-shape2 {
+        width: 6.12px;
+        height: 6.12px;
+        bottom: 0px;
+        left: 24.9px;
+    }
+}
+
 .third-sec .bg-shape3 {
     width: 60px;
     height: 60px;
@@ -1890,6 +1930,15 @@
     right: 242px;
 }
 
+@media (min-width: 481px) and (max-width: 768px) {
+    .third-sec .bg-shape3 {
+        width: 28px;
+        height: 28px;
+        bottom: 92px;
+        right: 121px;
+    }
+}
+
 .third-sec .bg-shape4 {
     width: 60px;
     height: 60px;
@@ -1899,6 +1948,15 @@
     position: absolute;
     top: 0;
     left: 0;
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .third-sec .bg-shape4 {
+        width: 28px;
+        height: 28px;
+        top: 0;
+        left: 0;
+    }
 }
 
 .third-sec .everything {
@@ -1919,6 +1977,15 @@
     }
 }
 
+@media (min-width: 481px) and (max-width: 768px) {
+    .third-sec .everything {
+        width: 89.812869%;
+        height: 203.29px;
+        flex-shrink: 0;
+        top: 36px;
+    }
+}
+
 .third-sec .what-offer-div {
     width: 620px;
     height: 144px;
@@ -1935,6 +2002,14 @@
         top: 50%;
         transform: translate(-50%, -50%);
         height: 100px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .third-sec .what-offer-div {
+        width: 287px;
+        height: 83px;
+        top: 74px;
     }
 }
 
@@ -1960,6 +2035,13 @@
     }
 }
 
+@media (min-width: 481px) and (max-width: 768px) {
+    .third-sec .what-offer-txt {
+        font-size: 32px;
+        line-height: 148%;
+    }
+}
+
 .third-sec .what-offer-subtxt {
     color: #FFF;
     text-align: center;
@@ -1979,6 +2061,13 @@
     .third-sec .what-offer-subtxt {
         font-size: 12px;
         width: 400px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .third-sec .what-offer-subtxt {
+        font-size: 8px;
+        width: 287px;
     }
 }
 
@@ -2008,6 +2097,14 @@
     }
 }
 
+@media (min-width: 481px) and (max-width: 768px) {
+    .third-sec .currency-widget {
+        width: 117px;
+        height: 45.5px;
+        bottom: 17.8px;
+    }
+}
+
 .third-sec .currency-widget-img {
     width: 112px;
     height: 112px;
@@ -2034,6 +2131,14 @@
     }
 }
 
+@media (min-width: 481px) and (max-width: 768px) {
+    .third-sec .currency-widget-img {
+        width: 45.5px;
+        height: 45.5px;
+        border-radius: 15px;
+    }
+}
+
 .third-sec .currency-widget-box {
     width: 206px;
     height: 54px;
@@ -2054,6 +2159,14 @@
     .third-sec .currency-widget-box {
         width: 150.723px;
         height: 39.51px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .third-sec .currency-widget-box {
+        width: 83.688px;
+        height: 21.938px;
+        bottom: 0.81px;
     }
 }
 
@@ -2079,6 +2192,13 @@
     .third-sec .currency-widget-rec {
         width: 150.723px;
         height: 39.51px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .third-sec .currency-widget-rec {
+        width: 83.688px;
+        height: 21.938px;
     }
 }
 
@@ -2108,6 +2228,13 @@
     .third-sec .currency-widget-text {
         font-size: 10px;
         left: 40.24px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .third-sec .currency-widget-text {
+        font-size: 5px;
+        left: 22.34px;
     }
 }
 
